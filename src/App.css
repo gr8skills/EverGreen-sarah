@@ -1,0 +1,33 @@
+@font-face {
+    font-family:phylosopher;
+    src: url(./assets/fonts3/Philosopher/Philosopher-Bold.ttf);
+}
+
+@font-face {
+    font-family:open sans;
+    src: url(./assets/fonts3/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+    font-family: skia;
+    src: url(./assets/fonts/Skia\ Regular.ttf);
+}
+
+.fade-appear,
+.fade-enter {
+opacity: 0;
+z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+opacity: 1;
+transition: opacity 450ms linear 250ms;
+}
+.fade-exit {
+opacity: 1;
+}
+.fade-exit.fade-exit-active {
+opacity: 0;
+transition: opacity 150ms linear;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

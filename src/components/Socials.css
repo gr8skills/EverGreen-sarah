@@ -1,0 +1,26 @@
+.handles{
+    height:500px;
+    border:solid 1px black;
+}
+.handle {
+    display:flex !important;
+}
+.handle img{
+    margin:20px;
+height:55px;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6{
+        font-family:phylosopher !important;
+}
+p{
+            font-family:open sans !important;
+
+}
+
+.socials h5{
+color:rgb(143,38,40) !important
+}
