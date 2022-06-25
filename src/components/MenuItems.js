@@ -64,17 +64,17 @@ export const navMenus = {
     //     cName: 'dropdown-link'
     // },
     {
-      title: "Creche",
+      title: "Infant School",
       path: "/learn/early-years",
       cName: "dropdown-link",
     },
     {
-      title: "Junior Primary",
+      title: "Primary",
       path: "/learn/primary_school",
       cName: "dropdown-link",
     },
 
-    { title: "Higher school", path: "/learn/nursery", cName: "dropdown-link" },
+    // { title: "Junior school", path: "/learn/nursery", cName: "dropdown-link" },
     {
       title: "Secondary",
       path: "/learn/secondary_school",

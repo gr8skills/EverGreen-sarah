@@ -31,7 +31,7 @@ function Eyfs() {
 
           <div className="col-md-12 flexy">
             <div className="col-md-9 sen">
-              <h4>PreSchool (Crech-Nursery 3)</h4>
+              <h4>PreSchool (0 – 5 years)</h4>
               <p>
                 From personalized and targeted instruction in the classroom to
                 opportunity-based clubs that give our students real-world

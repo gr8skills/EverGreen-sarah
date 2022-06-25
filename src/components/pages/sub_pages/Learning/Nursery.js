@@ -26,9 +26,9 @@ function Nursery() {
         <div className="comments col-md-12 flexy">
           <div className="intro col-md-9 sen">
             <small>Learning </small>
-            <header>Higher Primary</header>
+            <header>Junior School </header>
 
-            <h4>Evergreen Higher Primary School (Grades 4-6)</h4>
+            <h4>Evergreen Junior School [grade 1 – grade 9] (6 – 14 years)</h4>
             <p>
               Junior school at Evergreen Secondary School is more than a prelude
               to the high school years. Junior school is an intentional effort

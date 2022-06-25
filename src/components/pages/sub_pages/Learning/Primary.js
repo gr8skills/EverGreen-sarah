@@ -20,13 +20,13 @@ function Primary() {
         <CBreadcrumbItem href="/academics/administrators-message">
           Academics
         </CBreadcrumbItem>
-        <CBreadcrumbItem active>Junior Primary</CBreadcrumbItem>
+        <CBreadcrumbItem active> Primary</CBreadcrumbItem>
       </CBreadcrumb>
       <section className="container">
         <div className="comments col-md-12 flexy">
           <div className="intro col-md-9 sen">
             <small>Learning </small>
-            <header>Junior Primary</header>
+            <header>Primary </header>
 
             <h4>Evergreen Higher Primary School (Grades 4-6)</h4>
             <p>

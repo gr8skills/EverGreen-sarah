@@ -146,8 +146,11 @@ const [isShown3, setIsShown3] = useState(true);
 
             <div className="col-md-12 flexy">
               <div className="col-md-6">
-                <h5>Temporal Site</h5>
-                <p>4 Ukwa Street, Independent Layout, Enugu State</p>
+                <h5>Permanent Site</h5>
+                <p>
+                  Permanent Site-#8 Aguleri Street, Opposite High Court,
+                  Independence Layout, Enugu State, Nigeria.
+                </p>
                 <br />
                 <h5>Phone</h5>
                 08068782862, 09026646424, 09087594476

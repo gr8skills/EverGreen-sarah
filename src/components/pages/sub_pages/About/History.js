@@ -77,13 +77,12 @@ function History() {
               Our Mission
             </h4>
             <p style={{ paddingTop: "0", margin: "0", width: "50%" }}>
-              What is now known as Evergreen Secondary School emanated from Rev
-              Mother Arcade, OLA of blessed memory, who prayed to our Lady that
-              the land (Evergreen Compound) be given to the Catholic Mission to
-              establish a School? She promised our Lady that if her request was
-              granted the school would be named after her. Thus, came the name
-              “Evergreen” in 1950 – a name that has now, become the landmark in
-              the fast-spreading Lagos Metropolis of today.
+              Our mission is to equip our learners with essential skills through
+              a globally relevant educational experience that promotes a
+              lifelong passion for learning, ethical and moral uprightness,
+              social and emotional intelligence, innovation and creativity, a
+              healthy sense of dignity and self-worth, a sense of honour and
+              responsibility and a love for excellence.
             </p>
           </div>
         </div>
@@ -96,7 +95,11 @@ function History() {
           <div className="col-md-6">
             <h4>Our Vision</h4>
             <p>
-              To be the educational cradle of choice in our area of operation
+              Our vision is to be the educational institution of choice
+              dedicated to the continuing complete development and wellbeing of
+              our learners through the provision of world class educational
+              training aimed at the empowerment of the spiritual, mental,
+              emotional, ethical and social aspects.
             </p>
             <img src={Happy} alt="Header" className="img-fluid" />
           </div>
@@ -104,9 +107,20 @@ function History() {
 
         <div className="col-md-12 flexy" style={{ marginTop: "50px" }}>
           <div className="col-md-6">
-            <h4>Our Values</h4>
+            <h4>Our Core Values</h4>
             <p>
-              To be the educational cradle of choice in our area of operation
+              The interests of our learners come first. We believe that every
+              child has been intrinsically gifted with the capacity to learn,
+              excel and express themselves as unique individuals. As a Christian
+              institution, we provide a safe, friendly, orderly and
+              intellectually stimulating environment supported by a rich
+              partnership with the home, which is needed for children to become
+              healthy, responsible, tolerant, excellent, respectful and lifelong
+              learners. We stand out in: <br />
+              <strong>
+                {" "}
+                Character | Excellence | Respect | Godliness | Leadership
+              </strong>
             </p>
             <img src={Dance} alt="Header" className="img-fluid" />
           </div>

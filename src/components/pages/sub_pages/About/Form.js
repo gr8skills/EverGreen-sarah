@@ -1,23 +1,43 @@
-import { useState } from "react";
-import ReactDOM from "react-dom/client";
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+import { useForm } from "react-hook-form";
+import "./Style.css";
 
-function MyForm() {
-  const [name, setName] = useState("");
+function Form() {
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (data) => console.log(data);
 
+  console.log(watch("example"));
   return (
-    <form>
-      <label>
-        Enter your name:
+    <div>
+      <form onSubmit={handleSubmit(onSubmit)}>
+        {" "}
+        <h2>Get In Touch</h2>
         <input
-          type="text"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
+          {...register("exampleRequired", { required: true })}
+          placeholder="Full Name"
+          className="form-control"
         />
-      </label>
-    </form>
+        <input placeholder="Email" className="form-control" />
+        <input placeholder="Subject" className="form-control" />
+        {errors.exampleRequired && <span>This field is required</span>}
+        <textarea
+          placeholder="Your Message"
+          className="form-control"
+          id="exampleFormControlTextarea1"
+          rows="9"
+        ></textarea>
+        <button href="#" className="formbutton">
+          Submit
+        </button>
+      </form>
+    </div>
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<MyForm />);
-export default MyForm;
+export default Form;

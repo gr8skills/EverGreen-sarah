@@ -9,9 +9,9 @@ import Teacher from "../assets/casual.png";
 import { Link } from "react-router-dom";
 import Cart from "./Carousel";
 
-import Line from "../assets/redlin.png";
+// import Line from "../assets/redlin.png";
 
-import Socials from "./Socials";
+// import Socials from "./Socials";
 
 import Vision from "./Vision";
 import "./HeroSection.css";
@@ -90,19 +90,16 @@ function HeroSection() {
 
               <div className="mt-3 greet">
                 <p>
-                  Evergreen Schools draw from the very best of British and
-                  Nigerian curriculum content. The curricula empower the child
-                  to flow freely with the dynamics of a globalized world. <br />
-                  We work with the aim of raising independent thinkers who are
-                  open to ideas, inquisitive, confident, kind and responsible.
-                  <br /> We will groom them to have an enduring love for
-                  learning and focus their minds to attaining a purposeful
-                  future.
+                  Evergreen Schools is a faith-based co-curricular institution
+                  located is a spacious and serene environment. The school draws
+                  from the very best of Cambridge, EYFS and Nigerian curricula
+                  designed to equip our learners for global competitiveness and
+                  future relevance.
                 </p>
               </div>
 
               <div className="mt-5 flexy ">
-                <img className="line d-block " src={Line} alt="" />
+                {/* <img className="line d-block " src={Line} alt="" /> */}
                 <div className="col-md-4">&nbsp;</div>
                 <a href={"/principal"} className="read">
                   Read More
@@ -172,7 +169,7 @@ function HeroSection() {
           <div className="col-md-3">&nbsp;</div>
           <div className="welcome-note col-md-6">
             <label2 htmlFor="#">GET TO KNOW US</label2>
-            <h1>Explore Evergreen School</h1>
+            <h1>Who We Are</h1>
 
             <div className="mt-3 greet">
               <p>
@@ -213,7 +210,7 @@ function HeroSection() {
         </div>
 
         <Vision />
-        <Socials />
+        {/* <Socials /> */}
 
         <Cart />
       </div>

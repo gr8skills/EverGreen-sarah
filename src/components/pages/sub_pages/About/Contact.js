@@ -9,7 +9,7 @@ import { useState } from "react";
 // import Circle from "../assets/Circle.svg";
 import './Style.css'
 
-// import MyForm from "./MyForm";
+import Form from "./Form";
 
 
 
@@ -81,19 +81,16 @@ function Contact() {
               <div>
                 <h6>Address: </h6>
                 <p>
-                  {" "}
-                  Temporal Site-#4 Ukwa Street, <br /> Independence Layout,
-                  Enugu State, Nigeria
-                  <br />
                   Permanent Site-#8 Aguleri Street, Opposite <br />
-                  High Court, Independence Layout, Enugu State, Nigeria.
+                  High Court, Independence Layout,
+                  <br /> Enugu State, Nigeria.
                 </p>
               </div>
               <div>
                 <h6>Enquiries Email: </h6>
                 <p>
                   {" "}
-                  evergreenschoolng@gmail.com Mon-Fri(8am-5pm)
+                  evergreenschoolng@gmail.com <br /> Mon-Fri(8am-5pm)
                   <br /> Saturday-Sunday (Closed)
                 </p>
               </div>
@@ -102,8 +99,7 @@ function Contact() {
               {" "}
               <Map />
               <div className="col-md-6">
-                <h3>Enquiry Form</h3>
-                {/* <MyForm /> */}
+                <Form />
               </div>
             </div>
           </div>

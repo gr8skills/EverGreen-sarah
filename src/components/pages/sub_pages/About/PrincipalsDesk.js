@@ -40,7 +40,7 @@ function PrincipalsDesk() {
                       className="active"
                       to={"/about/administrators-message"}
                     >
-                      Welcome Address
+                      Welcome to Evergreen Schools
                     </Link>
                   </li>
                   <li>
@@ -63,46 +63,28 @@ function PrincipalsDesk() {
                 </ul>
               </div>
               <img src={Teacher} alt="" className="principals-img" />
-              <p>
-                I am excited to welcome you to evergreen schools. By working
-                hard, we have continued to blaze the trail in the delivery of
-                quality education these past years and have set enviable
-                standards. Evergreen schools is unique because we believe in
-                child centred learning. This philosophy sets the child free to
-                explore and learn in an atmosphere of compassion, mutual respect
-                and trust.
-              </p>
+            </div>
 
-              <p>
-                Small class size, supportive staff, a working system which
-                recognizes and promotes the individuality of the child, allows
-                each child to develop his/her talent. We have come to realize
-                that children have different aptitudes and that they learn and
-                develop at different stages. It is important to allow them
-              </p>
-              <p>
-                Our rich curriculum which encompasses the best of British and
-                Nigerian contents, empowers the child to flow freely with the
-                dynamics of a globalized world. We work with the aim of raising
-                independent thinkers who are open to ideas, inquisitive,
-                confident, kind and responsible, with an enduring love for
-                learning and a purposeful future. Our pupils graduate from
-                evergreen schools with excellent grades ,and with the freedom
-                that comes from knowing that they are valued by staff and their
-                peers, they move on to highly rated secondary school in Nigeria,
-                ready to soar. This is the freedom we create and celebrate in
-                the education we impart in them. While they were here, they
-                received the best and as they leave, we believe they will always
-                strive for the best.
-              </p>
-              <p>
-                Back to you my dear children; be optimistic that you can join
-                the team of achievers that both Nigeria and the world have ever
-                received; it may not be easy, but it is possible. As you have
-                come to be part of Evergreen School family, try to be good Ambassadors of
-                this great citadel of learning obey the school rules and
-                regulations, be punctual, attentive and open. Once again you are
-                highly welcome and remain blessed.
+            <div className="col-md-12 toop">
+              <p style={{ lineHeight: "35px" ,fontSize:'20px'}}>
+                Evergreen Schools is a faith-based co-curricular institution
+                located is a spacious and serene environment. The school draws
+                from the very best of Cambridge, EYFS and Nigerian curricula
+                designed to equip our learners for global competitiveness and
+                future relevance. <br />
+                <br />
+                We are a Thinking School, certified to use thinking
+                methodologies developed by Thinking Matters, University of
+                Exeter, United Kingdom. We run an environment where everyone in
+                the school community pays conscious attention to thought, words
+                and actions. Our learners are primed with strategic thinking
+                tools to become optimal life-long learners. <br />
+                <br />
+                Our top-of-the-shelf Management and academic team ensure that
+                you have that unique Evergreen experience that has made hundreds
+                of parents repose their faith in us. Evergreen Schools is a
+                place for all and a brand you can trust. Have you had an
+                Evergreen experience today?
               </p>
             </div>
             <div className="rev">

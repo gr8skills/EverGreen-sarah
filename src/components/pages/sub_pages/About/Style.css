@@ -320,7 +320,8 @@ padding-top: 20px;
   list-style: none;
   padding: 20px 30px;
   background: #F5F5F5;
-  min-width: 300px;
+  /* min-width: 300px; */
+  margin-left:10px;
 }
 
 .sub-menu li{
@@ -348,7 +349,9 @@ padding-top: 20px;
 display:none;
   }
 
-
+.toop{
+  margin-top:-400px !important;
+}
 
 .telecont h6{
   /* display: flex; */
@@ -361,8 +364,8 @@ display:none;
   font-size: 17px;
 }
 .create img{
-  height:200px;
-  width:200px;
+  /* height:200px; */
+  width:100%;
 }
 
 .create p{
@@ -496,8 +499,34 @@ label{
   margin-top:80px !important
 }
 
+textarea{
+  margin-left:10px;
+}
 
+input{
+  width:100%;
+  margin:15px;
+  padding:7px;border-radius: 5px;
+  /* border-color:rgb(31,71,17); */
+}
+.formbutton {
+  color:white !important;
+  border:soild 1px rgb(31,71,17);
+  background-color:rgb(31,71,17);
+  padding:10px 50px;
+  border-radius:35px;
+  font-family:open sans;
+  font-weight:bold;
+  float:right;
+  margin-top:30px;
+}
+.formbutton:hover{
+  background-color:white;
+  color:rgb(31,71,17)!important;
+  transition:0.5s all
+  
 
+}
 /*accordion*/
 
 /* 
@@ -591,10 +620,6 @@ input:checked + label + .content {
 
 
 
-
-input {
-    display: none;
-}
 
 label {
     display: block;    
@@ -748,4 +773,17 @@ small{
 
 .wrapper fieldset {
     margin: 20px 0;
+}
+.sec p{
+  line-height:45px;
+  font-size:19px;
+}
+
+ol li{
+  line-height:30px;
+  margin:10px;
+}
+
+.ml{
+  margin-right:10px !important;
 }
