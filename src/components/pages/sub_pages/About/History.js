@@ -21,6 +21,8 @@ function History() {
       <section>
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
+                     <div class="overlay4"></div>
+
         </div>
       </section>
       <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
@@ -56,6 +58,11 @@ function History() {
                 <li>
                   <Link className="active" to={"/about/history"}>
                     History Of The School
+                  </Link>
+                </li>
+                 <li>
+                  <Link  to={"/about/Conduct"}>
+                   Parents Conde of Conduct
                   </Link>
                 </li>
                 <li>

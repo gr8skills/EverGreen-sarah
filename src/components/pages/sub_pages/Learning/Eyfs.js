@@ -1,5 +1,5 @@
 import React from 'react'
-import Pex from "../../../../assets/examstudents3.png";
+import Pex from "../../../../assets/cutekids.png";
 import Exam from "../../../../assets/examstudents4.png";
 import Cute from "../../../../assets/cutekids.png";
 import { CBreadcrumbItem } from "@coreui/react";
@@ -13,6 +13,8 @@ function Eyfs() {
       <section>
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
+                     <div class="overlay4"></div>
+
         </div>
       </section>
       <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
@@ -26,7 +28,7 @@ function Eyfs() {
         <div className="comments">
           <div className="intro">
             <small>ACADEMICS </small>
-            <header>Creche</header>
+            <header>Infant School</header>
           </div>
 
           <div className="col-md-12 flexy">

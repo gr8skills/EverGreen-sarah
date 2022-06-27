@@ -10,6 +10,8 @@ function AgeCons() {
       <section>
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
+                     <div class="overlay4"></div>
+
         </div>
       </section>
       <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>

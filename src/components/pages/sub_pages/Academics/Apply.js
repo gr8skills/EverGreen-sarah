@@ -11,6 +11,8 @@ function Apply() {
       <section>
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
+                     <div class="overlay4"></div>
+
         </div>
       </section>
       <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
@@ -51,7 +53,7 @@ function Apply() {
               <h3>Applying from within Nigeria</h3>
               <p>Thank you for your interest in Evergreen School Enugu. </p>
               <p>
-                Click <Link to="/International">here </Link>
+                Click <Link to="./International">here </Link>
                 if you are applying from outside Nigeria{" "}
               </p>
 

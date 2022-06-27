@@ -76,7 +76,7 @@ export const navMenus = {
 
     // { title: "Junior school", path: "/learn/nursery", cName: "dropdown-link" },
     {
-      title: "Secondary",
+      title: "College",
       path: "/learn/secondary_school",
       cName: "dropdown-link",
     },

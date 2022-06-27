@@ -19,6 +19,8 @@ function Curriculum() {
       <section>
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
+           <div class="overlay4"></div>
+
         </div>
       </section>
       <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
@@ -49,7 +51,7 @@ function Curriculum() {
               <ul className="col-md-12 ">
                 <h2 className="accTitle">Annual Student Traditions</h2>
 
-                <input type="checkbox" id="title1" />
+                <input type="checkbox" id="title1" className="hideI"/>
                 <label for="title1">
                   Evergreen School Thanksgiving & Young Alumni Luncheon
                 </label>
@@ -69,7 +71,7 @@ function Curriculum() {
                   </p>
                 </div>
 
-                <input type="checkbox" id="title2" />
+                <input type="checkbox" id="title2" className="hide"/>
                 <label for="title2">Retreats</label>
 
                 <div className="content flexy col-md-12">
@@ -87,7 +89,7 @@ function Curriculum() {
                   </div>
                 </div>
 
-                <input type="checkbox" id="title3" />
+                <input type="checkbox" id="title3" className="hide"/>
                 <label for="title3" className="">
                   Christmas At Evergreen School
                 </label>
@@ -109,7 +111,7 @@ function Curriculum() {
                   </p>
                 </div>
 
-                <input type="checkbox" id="title4" />
+                <input type="checkbox" id="title4" className="hide"/>
                 <label for="title4" className="">
                   Charity
                 </label>
@@ -133,7 +135,7 @@ function Curriculum() {
               <ul className="col-md-12">
                 <h2 className="accTitle">Clubs & Activities</h2>
 
-                <input type="checkbox" id="title5" />
+                <input type="checkbox" id="title5" className="hide"/>
                 <label for="title5">Activities</label>
 
                 <div className="content flexy col-md-12">
@@ -160,7 +162,7 @@ function Curriculum() {
                   </ul>
                 </div>
 
-                <input type="checkbox" id="title6" />
+                <input type="checkbox" id="title6" className="hide"/>
                 <label for="title6">Academic & Competition CLub</label>
 
                 <div className="content flexy col-md-12">
@@ -188,7 +190,7 @@ function Curriculum() {
                   </div>
                 </div>
 
-                <input type="checkbox" id="title7" />
+                <input type="checkbox" id="title7" className="hide"/>
                 <label for="title7" className="">
                   Leadership Clubs
                 </label>
@@ -208,7 +210,7 @@ function Curriculum() {
                   </ul>
                 </div>
 
-                <input type="checkbox" id="title8" />
+                <input type="checkbox" id="title8" className="hide"/>
                 <label for="title8" className="">
                   Production, Arts & Performance
                 </label>

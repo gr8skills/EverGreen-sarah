@@ -527,6 +527,11 @@ input{
   
 
 }
+
+
+  input {
+  display:none ;
+}
 /*accordion*/
 
 /* 
@@ -787,3 +792,42 @@ ol li{
 .ml{
   margin-right:10px !important;
 }
+
+
+.overlay4 {
+  position: absolute;
+  top: 0px;
+  height:100%;
+  width:100%;
+  background-color:rgba(104,212,103,0.5);
+  /* opacity:0.5; */
+}
+
+.overlay4:hover{
+  opacity:0;
+  transition:0.7s all;
+}
+
+.conduct h3{
+  margin-top:40px;
+  margin-bottom:0 !important;
+}
+
+.pol{
+  margin-top:150px;
+  background-color:rgb(31,71,17);
+  color:white;
+  border:solid 3px rgb(31,71,17);
+  border-radius:35px;
+}
+
+
+.pol:hover{
+font-weight:bold;
+  color:rgb(31,71,17) !important;
+  background-color:white;
+  transition:0.7s all;
+}
+
+
+

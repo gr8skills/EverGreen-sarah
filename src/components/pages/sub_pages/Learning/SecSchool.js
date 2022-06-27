@@ -1,5 +1,5 @@
 import React from 'react'
-import Pex from "../../../../assets/happykids.png";
+import Pex from "../../../../assets/mask3.png";
 import { CBreadcrumbItem } from "@coreui/react";
 import { CBreadcrumb } from "@coreui/react";
 import Exam from "../../../../assets/examstudents4.png";
@@ -18,6 +18,8 @@ function SecSchool() {
       <section>
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
+                     <div class="overlay4"></div>
+
         </div>
       </section>
 

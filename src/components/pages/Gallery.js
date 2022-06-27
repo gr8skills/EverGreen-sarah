@@ -20,6 +20,7 @@ function Gallery() {
       <section>
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
+            <div class="overlay4"></div>
         </div>
       </section>
 
@@ -61,8 +62,10 @@ function Gallery() {
             <Tab label="All" />
             <Tab label="Classes" />
             <Tab label="Cultural Events" />
-            <Tab label="Inaugurations" />
+            <Tab label="Graduation" />
             <Tab label="Sports Contests" />
+            <Tab label="Concerts" />
+            <Tab label="Clubs" />
 
             <Tab label="School Facilities" />
           </Tabs>
@@ -74,6 +77,8 @@ function Gallery() {
           {value === 4 ? <GalleryIndex2 /> : ""}
           {value === 5 ? <GalleryIndex2 /> : ""}
           {value === 6 ? <GalleryIndex2 /> : ""}
+                    {value === 7 ? <GalleryIndex2 /> : ""}
+
         </div>
       </section>
     </>

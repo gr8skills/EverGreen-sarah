@@ -7,6 +7,8 @@ function JuniorSchool() {
     <section>
             <div className="header-img">
                 <img src={Pex} alt="Header" className="img-fluid" />
+                           <div class="overlay4"></div>
+
             </div>
         </section>
 

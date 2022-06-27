@@ -1,5 +1,5 @@
 import React from "react";
-import Pex from "../../../../assets/mask3.png";
+import Pex from "../../../../assets/examstudents3.png";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import { CBreadcrumbItem } from "@coreui/react";
 import { CBreadcrumb } from "@coreui/react";
@@ -13,6 +13,8 @@ function Primary() {
       <section>
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
+                      <div class="overlay4"></div>
+
         </div>
       </section>
       <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
