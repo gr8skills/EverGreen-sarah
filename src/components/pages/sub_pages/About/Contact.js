@@ -24,8 +24,7 @@ function Contact() {
       <section>
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
-                     <div class="overlay4"></div>
-
+          <div class="overlay4"></div>
         </div>
       </section>
       <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
@@ -61,6 +60,10 @@ function Contact() {
                 <li>
                   <Link to={"/about/history"}>History Of The School</Link>
                 </li>
+                <li>
+                  <Link to={"Conduct"}>Parents-code-of conduct</Link>
+                </li>
+
                 <li>
                   <Link className="active" to={"contact-us"}>
                     Contact Us

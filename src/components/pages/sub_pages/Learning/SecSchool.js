@@ -18,8 +18,7 @@ function SecSchool() {
       <section>
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
-                     <div class="overlay4"></div>
-
+          <div class="overlay4"></div>
         </div>
       </section>
 
@@ -56,23 +55,20 @@ function SecSchool() {
                   <Link to={"/"}>Home</Link>
                 </li>
                 <li>
-                  <Link to={"/learn/early-years"}>Creche</Link>
+                  <Link to={"/learn/early-years"}>Infant School</Link>
                 </li>
                 <li>
-                  <Link className="active" to={"/learn/nursery"}>
-                    Higher Primary
+                  <Link to={"/learn/primary_school"}> Primary</Link>
+                </li>
+
+                <li>
+                  <Link className="active" to={"/learn/secondary_school"}>
+                    College
                   </Link>
                 </li>
 
                 <li>
-                  <Link to={"/learn/nursery"}>Junior Primary</Link>
-                </li>
-                <li>
-                  <Link to={"/learn/nursery"}>Secondary</Link>
-                </li>
-
-                <li>
-                  <Link to={"/learn/nursery"}>Curriculum</Link>
+                  <Link to={"/learn/school_module"}>Curriculum</Link>
                 </li>
               </ul>
             </div>
@@ -169,7 +165,7 @@ function SecSchool() {
           </div>
         </div>
 
-        <div className="col-md-12" style={{marginTop:'200px'}}>
+        <div className="col-md-12" style={{ marginTop: "200px" }}>
           <h1>Senior Secondary School (SSS)</h1>
 
           <p>

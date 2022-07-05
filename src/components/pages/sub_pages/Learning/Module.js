@@ -11,8 +11,7 @@ function Module() {
       <section>
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
-                     <div class="overlay4"></div>
-
+          <div class="overlay4"></div>
         </div>
       </section>
       <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
@@ -72,23 +71,20 @@ function Module() {
                   <Link to={"/"}>Home</Link>
                 </li>
                 <li>
-                  <Link to={"/learn/early-years"}>Creche</Link>
+                  <Link to={"/learn/early-years"}>Infant School</Link>
                 </li>
                 <li>
-                  <Link className="active" to={"/learn/nursery"}>
-                    Higher Primary
+                  <Link to={"/learn/primary_school"}> Primary</Link>
+                </li>
+
+                <li>
+                  <Link to={"/learn/secondary_school"}>College</Link>
+                </li>
+
+                <li>
+                  <Link className="active" to={"/learn/school_module"}>
+                    Curriculum
                   </Link>
-                </li>
-
-                <li>
-                  <Link to={"/learn/nursery"}>Junior Primary</Link>
-                </li>
-                <li>
-                  <Link to={"/learn/nursery"}>Secondary</Link>
-                </li>
-
-                <li>
-                  <Link to={"/learn/nursery"}>Curriculum</Link>
                 </li>
               </ul>
             </div>

@@ -21,8 +21,7 @@ function History() {
       <section>
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
-                     <div class="overlay4"></div>
-
+          <div class="overlay4"></div>
         </div>
       </section>
       <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
@@ -60,10 +59,8 @@ function History() {
                     History Of The School
                   </Link>
                 </li>
-                 <li>
-                  <Link  to={"/about/Conduct"}>
-                   Parents Conde of Conduct
-                  </Link>
+                <li>
+                  <Link to={"/about/Conduct"}>Parents Code of Conduct</Link>
                 </li>
                 <li>
                   <Link to={"contact-us"}>Contact Us</Link>
@@ -71,13 +68,10 @@ function History() {
               </ul>
             </div>
             <p style={{ paddingTop: "0", margin: "0" }}>
-              What is now known as Evergreen Secondary School emanated from Rev
-              Mother Arcade, OLA of blessed memory, who prayed to our Lady that
-              the land (Evergreen Compound) be given to the Catholic Mission to
-              establish a School? She promised our Lady that if her request was
-              granted the school would be named after her. Thus, came the name
-              “Evergreen” in 1950 – a name that has now, become the landmark in
-              the fast-spreading Lagos Metropolis of today.
+             Evergreen is a FAITH based school. We believe in the birth, death and
+              resurrection of our Lord Jesus Christ. Based on this foundation,
+              children will be groomed to understand their Christian faith and
+              be morally upright.
             </p>
 
             <h4 className="bio" style={{ marginTop: "60px" }}>
@@ -132,7 +126,7 @@ function History() {
             <img src={Dance} alt="Header" className="img-fluid" />
           </div>
 
-          <div className="col-md-6" style={{ marginTop: "90px" }}>
+          <div className="col-md-6 " style={{ marginTop: "90px" }}>
             <h4>Our Curriculum</h4>
             <p>
               To be the educational cradle of choice in our area of operation

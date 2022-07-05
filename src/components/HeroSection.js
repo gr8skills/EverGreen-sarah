@@ -86,7 +86,7 @@ function HeroSection() {
 
             <div className="welcome-note note1">
               <label2 htmlFor="#">GREETINGS</label2>
-              <h1>Welcome to Evergreen School</h1>
+              <h1>Welcome to Evergreen Schools</h1>
 
               <div className="mt-3 greet">
                 <p>

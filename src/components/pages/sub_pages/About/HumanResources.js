@@ -16,8 +16,7 @@ function HumanResources() {
       <section>
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
-                     <div class="overlay4"></div>
-
+          <div class="overlay4"></div>
         </div>
       </section>
       <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
@@ -46,15 +45,17 @@ function HumanResources() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="active" to={"/about/proprietors-message"}>
+                  <Link  to={"/about/proprietors-message"}>
                     About Evergreen
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/about/history"}>History Of The School</Link>
+                  <Link className="active" to={"/about/history"}>
+                    History Of The School
+                  </Link>
                 </li>
                 <li>
-                  <Link to={"contact-us"}>Parents-code-of conduct</Link>
+                  <Link to={"Conduct"}>Parents-code-of conduct</Link>
                 </li>
 
                 <li>
@@ -142,10 +143,7 @@ function HumanResources() {
             <img src={Stage} alt="Header" className="img-fluid" />
           </div>
         </div>
-        <div
-          className="col-md-12"
-          style={{ lineHeight: "35px" }}
-        >
+        <div className="col-md-12" style={{ lineHeight: "35px" }}>
           <p>
             Monday, 1st day of June 1959 was a day of great joy in the family of
             Gregory Obasola and Victoria Oluremi Martins (both of blessed
