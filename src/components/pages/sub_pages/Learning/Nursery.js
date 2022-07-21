@@ -1,8 +1,7 @@
 import React from 'react'
 import Pex from "../../../../assets/salute6.png";
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
-import { CBreadcrumbItem } from "@coreui/react";
-import { CBreadcrumb } from "@coreui/react";
+
 import Exam from "../../../../assets/examstudents4.png";
 import Chess from "../../../../assets/chess2.png";
 import Icofont from "react-icofont";
@@ -16,13 +15,7 @@ function Nursery() {
           <div class="overlay4"></div>
         </div>
       </section>
-      <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
-        <CBreadcrumbItem href="/">&nbsp; Home</CBreadcrumbItem>
-        <CBreadcrumbItem href="/academics/administrators-message">
-          Academics
-        </CBreadcrumbItem>
-        <CBreadcrumbItem active>Junior Primary</CBreadcrumbItem>
-      </CBreadcrumb>
+      
       <section className="container">
         <div className="comments col-md-12 flexy">
           <div className="intro col-md-9 sen">
@@ -46,9 +39,7 @@ function Nursery() {
           <div className="create col-md-2 ">
             <div className="sub-cover">
               <ul className="sub-menu">
-                <li>
-                  <Link to={"/"}>Home</Link>
-                </li>
+             
                 <li>
                   <Link  to={"/learn/early-years"}>
                     Infant School

@@ -1,7 +1,6 @@
 import React from 'react';
 import Pex from "../../../../assets/stage.png";
-import { CBreadcrumbItem } from '@coreui/react'
-import { CBreadcrumb } from '@coreui/react'
+
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import Icofont from "react-icofont";
 import Scholar from "../../../../assets/mask2.png";
@@ -19,26 +18,18 @@ function Apply() {
           <div class="overlay4"></div>
         </div>
       </section>
-      <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
-        <CBreadcrumbItem href="/">&nbsp; Home</CBreadcrumbItem>
-        <CBreadcrumbItem href="/academics/how_to_apply">
-          Admission
-        </CBreadcrumbItem>
-        <CBreadcrumbItem active>How to Apply</CBreadcrumbItem>
-      </CBreadcrumb>
+     
 
       <section className="container">
         <div className="comments">
           <div className="intro">
-            <small>ABOUT </small>
+            
             <header>CODE OF CONDUCT</header>
           </div>
           <div className="create">
             <div className="sub-cover">
               <ul className="sub-menu">
-                <li>
-                  <Link to={"/"}>Home</Link>
-                </li>
+               
                 <li>
                   <Link to={"/about/administrators-message"}>
                     Administrator’s Message
@@ -49,9 +40,7 @@ function Apply() {
                     Proprietor’s Message
                   </Link>
                 </li>
-                <li>
-                  <Link to={"/about/history"}>History Of The School</Link>
-                </li>
+                
                 <li>
                   <Link className="active" to={"/about/Conduct"}>
                     Parents Code of Conduct

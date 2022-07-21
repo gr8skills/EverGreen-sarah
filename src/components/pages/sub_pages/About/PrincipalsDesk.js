@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Teacher from "../../../../assets/admin.png";
 import Pex from "../../../../assets/examstudents2.png";
-import { CBreadcrumbItem } from '@coreui/react'
-import { CBreadcrumb } from '@coreui/react'
+
 import './Style.css'
 
 function PrincipalsDesk() {
@@ -17,26 +16,16 @@ function PrincipalsDesk() {
 
           </div>
         </section>
-        <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
-          <CBreadcrumbItem href="/">&nbsp; Home</CBreadcrumbItem>
-          <CBreadcrumbItem href="/about/administrators-message">
-            About
-          </CBreadcrumbItem>
-          <CBreadcrumbItem active>Administrator’s Message</CBreadcrumbItem>
-        </CBreadcrumb>
-
+        
         <section className="container">
           <div className="comments">
             <div className="intro">
-              <small>About </small>
               <header>Welcome Address</header>
             </div>
             <div className=" create">
               <div className="sub-cover">
                 <ul className="sub-menu">
-                  <li>
-                    <Link to={"/"}>Home</Link>
-                  </li>
+                 
                   <li>
                     <Link
                       className="active"
@@ -50,9 +39,7 @@ function PrincipalsDesk() {
                       Proprietor’s Message
                     </Link>
                   </li>
-                  <li>
-                    <Link to={"/about/history"}>History Of The School</Link>
-                  </li>{" "}
+                 
                   <li>
                     <Link to={"/about/history"}>About Evergreen</Link>
                   </li>{" "}

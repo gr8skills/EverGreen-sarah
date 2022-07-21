@@ -7,11 +7,8 @@ import Pex from "../assets/salute6.png";
 
 import Teacher from "../assets/casual.png";
 import { Link } from "react-router-dom";
-import Cart from "./Carousel";
+import Testimonial from "./Testimonial";
 
-// import Line from "../assets/redlin.png";
-
-// import Socials from "./Socials";
 
 import Vision from "./Vision";
 import "./HeroSection.css";
@@ -22,11 +19,11 @@ function HeroSection() {
   return (
     <>
       <div className="page-trans ">
-        <div>
+        <div className="firstcaro">
           <Carousel fade>
             <Carousel.Item>
               <img
-                className="imgCaro d-block w-100 img-fluid "
+                className="imgCaro d-block w-100 img-fluid carImg"
                 src={scholar}
                 alt="Scholar"
               />
@@ -34,7 +31,7 @@ function HeroSection() {
 
             <Carousel.Item>
               <img
-                className="imgCaro  d-block w-100 img-fluid "
+                className="imgCaro  d-block w-100 img-fluid carImg"
                 src={Des}
                 alt="Student"
               />
@@ -42,14 +39,14 @@ function HeroSection() {
 
             <Carousel.Item>
               <img
-                className="imgCaro d-block w-100 img-fluid "
+                className="imgCaro d-block w-100 img-fluid carImg"
                 src={Hard}
                 alt=""
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
-                className="imgCaro d-block w-100 img-fluid "
+                className="imgCaro d-block w-100 img-fluid carImg"
                 src={Pex}
                 alt=""
               />
@@ -125,13 +122,39 @@ function HeroSection() {
           <div className="game game7"></div>
 
           <div className="game0">
-            <h1>Nurtuting global citizens and future game-changers</h1>
+            <h1>
+              STILL EVERGREEN <br />
+              <span style={{ fontSize: "80px", color: "rgb(32,71,17)" }}>
+                {" "}
+                @ 10
+              </span>{" "}
+              <br />
+              (Celebrating 10 years of God's goodness).
+            </h1>
           </div>
         </div>
 
         {/* this is for mobile view */}
 
-        <div className="gammers2">
+        <div
+          className="gammers2"
+          style={{ textAlign: "center", marginTop: "80px" }}
+        >
+          <h3
+            style={{
+              borderBottom: "dashed 4px grey",
+              borderTop: "dashed 4px grey",
+              marginTop: "30px",
+            }}
+          >
+            STILL EVERGREEN <br />
+            <span style={{ fontSize: "50px", color: "rgb(32,71,17)" }}>
+              {" "}
+              @ 10
+            </span>{" "}
+            <br />
+            (Celebrating 10 years of God's goodness).
+          </h3>
           <div className="flexyM col-md-12">
             <div className="col-4">&nbsp;</div>
             <div className="col-8 gameM game-1 "></div>
@@ -182,28 +205,22 @@ function HeroSection() {
 
         <div className="divs">
           <div className="col-md-12 flexy divi">
-            <div className="crech division col-md-3">
+            <div className="crech division col-md-4">
               <div class="overlay">
-                <h4>Creche</h4>
-                <p>0-1 Year</p>
+                <h4>Nursery</h4>
+                <p>(0-5 years)</p>
               </div>
             </div>
-            <div className="junior division col-md-3">
+            <div className="higher division col-md-4">
               <div class="overlay">
-                <h4>Junior Primary</h4>
-                <p>0-1 Year</p>
-              </div>
-            </div>
-            <div className="higher division col-md-3">
-              <div class="overlay">
-                <h4>Higher Primary</h4>
-                <p>0-1 Year</p>
+                <h4>Junior school </h4>
+                <p> (6-11 years) (Grade 1-6)</p>
               </div>
             </div>{" "}
-            <div className="secondary division col-md-3">
+            <div className="secondary division col-md-4">
               <div class="overlay">
-                <h4>Secondary</h4>
-                <p>0-1 Year</p>
+                <h4>College</h4>
+                <p>(11-17 years)</p>
               </div>
             </div>
           </div>
@@ -212,7 +229,7 @@ function HeroSection() {
         <Vision />
         {/* <Socials /> */}
 
-        <Cart />
+        <Testimonial />
       </div>
     </>
   );

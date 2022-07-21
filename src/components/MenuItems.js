@@ -5,11 +5,7 @@ export const navMenus = {
       path: "/about/administrators-message",
       cName: "dropdown-link",
     },
-    {
-      title: "History of the School",
-      path: "/about/proprietors-message",
-      cName: "dropdown-link",
-    },
+    
     {
       title: "About Evergreen",
       path: "/about/history",
@@ -45,11 +41,7 @@ export const navMenus = {
       description: "",
     },
 
-    {
-      title: "School Fees",
-      path: "/academics/school-fees",
-      cName: "dropdown-link",
-    },
+    
     {
       title: "Transfer",
       path: "/academics/result_&_scholarships",

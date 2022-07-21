@@ -2,8 +2,6 @@ import React from 'react'
 import Pex from "../../../../assets/cutekids.png";
 import Exam from "../../../../assets/examstudents4.png";
 import Cute from "../../../../assets/cutekids.png";
-import { CBreadcrumbItem } from "@coreui/react";
-import { CBreadcrumb } from "@coreui/react";
 
 
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
@@ -16,18 +14,12 @@ function Eyfs() {
           <div class="overlay4"></div>
         </div>
       </section>
-      <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
-        <CBreadcrumbItem href="/">&nbsp; Home</CBreadcrumbItem>
-        <CBreadcrumbItem href="/academics/administrators-message">
-          Academics
-        </CBreadcrumbItem>
-        <CBreadcrumbItem active>creche</CBreadcrumbItem>
-      </CBreadcrumb>
+     
       <section className="container">
         <div className="comments">
           <div className="intro">
-            <small>ACADEMICS </small>
-            <header>Infant School</header>
+            
+            <header >Infant School</header>
           </div>
 
           <div className="col-md-12 flexy">
@@ -49,9 +41,7 @@ function Eyfs() {
             <div className=" create col-md-2">
               <div className="sub-cover">
                 <ul className="sub-menu">
-                  <li>
-                    <Link to={"/"}>Home</Link>
-                  </li>
+                 
                   <li>
                     <Link className="active" to={"/learn/early-years"}>
                       Infant School

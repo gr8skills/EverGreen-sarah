@@ -1,8 +1,7 @@
 import React from "react";
 import Pex from "../../../../assets/stagedance.png";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
-import { CBreadcrumbItem } from "@coreui/react";
-import { CBreadcrumb } from "@coreui/react";
+
 import Icofont from "react-icofont";
 
 function International() {
@@ -15,18 +14,12 @@ function International() {
 
         </div>
       </section>
-      <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
-        <CBreadcrumbItem href="/">&nbsp; Home</CBreadcrumbItem>
-        <CBreadcrumbItem href="/academics/how_to_apply">
-          Admission
-        </CBreadcrumbItem>
-        <CBreadcrumbItem active>International Application</CBreadcrumbItem>
-      </CBreadcrumb>
+    
 
       <section className="container">
         <div className="comments">
           <div className="intro">
-            <small>ADMISSION </small>
+            
             <header>International Application</header>
           </div>
 
@@ -45,12 +38,8 @@ function International() {
                     International Application
                   </Link>
                 </li>
-                <li>
-                  <Link to={"/academics/result_&_scholarships"}>Appy Online</Link>
-                </li>
-                <li>
-                  <Link to={"/academics/school-fees"}>Tuition & Fees</Link>
-                </li>
+               
+                
               </ul>
             </div>
 

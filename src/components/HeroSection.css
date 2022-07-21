@@ -11,7 +11,7 @@
     height: 100vh;
 }
 
-.carousel::after{
+.firstcaro .carousel::after{
         display: block;
         clear: both;
         content: "";
@@ -503,7 +503,9 @@ height:3.4rem !important;
     height: 30rem;
 }
 
-
+.carImg{
+    height:1200px;
+}
 
 
   .text-cover{
@@ -1017,12 +1019,11 @@ a .read{
 
 
    .game{
-       height:200px;
-       width:200px;
-       /* border:solid 1px black; */
+       height:300px;
+       width:300px;
        border-radius :50%;
-       top:257%; 
-       left:42%;
+       /* top:257%; 
+       left:42%; */
        position:absolute;
 
    }
@@ -1033,8 +1034,8 @@ a .read{
     padding-top:150px
 }
    .game0{
-       height:450px;
-       width:450px;
+       height:550px;
+       width:550px;
  background-image:url('../assets/dashed2.png');
        background-size:cover;
        background-repeat: no-repeat;
@@ -1046,8 +1047,8 @@ text-align: center;
        margin-top:180px;
        padding-top:150px;
        margin-top:565px;
-       padding-left:50px;
-       padding-right:50px;
+       padding-left:20px;
+       padding-right:20px;
 
    }
 
@@ -1055,10 +1056,10 @@ text-align: center;
     font-family: phylosopher;
 }
    .game1{
-      top:237%; 
-       left:8%;
-height:350px;
-       width:350px;
+      top:200%; 
+       left:12%;
+height:400px;
+       width:400px;
        background-image:url('../assets/chess.png');
        background-size:cover;
        background-repeat: no-repeat;
@@ -1069,7 +1070,7 @@ margin-top:180px;
 
 
       .game2{
-      top:199%; 
+      top:169%; 
        left:25%;
  height:260px;
        width:260px;
@@ -1084,10 +1085,10 @@ margin-top:180px;
 
 
       .game3{
-      top:195%; 
-       left:46%;
- height:350px;
-       width:350px;
+      top:165%; 
+       left:42%;
+ height:400px;
+       width:400px;
 
 background-image:url('../assets/zoo.png');
        background-size:cover;
@@ -1101,8 +1102,8 @@ margin-top:180px;
 
         .game4{
        /* background-color:yellow; */
-      top:295%; 
-       left:4%;
+      top:245%; 
+       left:10%;
  height:260px;
        width:260px;
 background-image:url('../assets/champ.png');
@@ -1117,10 +1118,10 @@ margin-top:180px;
 
         .game5{
        /* background-color:pink; */
-      top:300%; 
+      top:255%; 
        left:25%;
-height:350px;
-       width:350px;
+height:400px;
+       width:400px;
        background-image:url('../assets/examstudents4.png');
        background-size:cover;
        background-repeat: no-repeat;
@@ -1132,8 +1133,8 @@ margin-top:180px;
 
 
         .game6{
-      top:320%; 
-       left:52%;
+      top:270%; 
+       left:49%;
  height:260px;
        width:260px;
        margin-bottom:300px;
@@ -1150,10 +1151,10 @@ margin-top:180px;
 
         .game7{
        /* background-color:black; */
-      top:267%; 
-       left:60%;
- height:350px;
-       width:350px;
+      top:230%; 
+       left:57%;
+ height:400px;
+       width:400px;
 background-image:url('../assets/examstudents.png');
        background-size:cover;
        background-repeat: no-repeat;
@@ -1172,7 +1173,7 @@ margin-top:300px */
    }
 
    .division{
-       height:500px;
+       height:750px;
        border-radius: 10px;
    }
    /* .divi{
@@ -1182,7 +1183,7 @@ margin-top:300px */
 
    .know{
        text-align:center !important;
-       /* margin-top:50px; */
+     margin-top:190px; 
    }
 
    .know p{
@@ -1360,7 +1361,7 @@ background-image:url('../assets/examstudents.png');
 
 .greet p{
     font-family:open sans;
-    font-size:18px;
+    font-size:23px;
     text-align: justify;
     line-height:30px;
 
@@ -1380,7 +1381,8 @@ background-image:url('../assets/examstudents.png');
 }
 
 h1, h2, h3, h4, h5, h6{
-        font-family:phylosopher !important;
+        font-family:sans serif !important;
+        font-weight:900 !important
 }
 p{
             font-family:open sans !important;

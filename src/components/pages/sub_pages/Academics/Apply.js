@@ -15,18 +15,11 @@ function Apply() {
 
         </div>
       </section>
-      <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
-        <CBreadcrumbItem href="/">&nbsp; Home</CBreadcrumbItem>
-        <CBreadcrumbItem href="/academics/how_to_apply">
-          Admission
-        </CBreadcrumbItem>
-        <CBreadcrumbItem active>How to Apply</CBreadcrumbItem>
-      </CBreadcrumb>
-
+      
       <section className="container">
         <div className="comments">
           <div className="intro">
-            <small>ADMISSION </small>
+           
             <header>How to Apply</header>
           </div>
           <div className="create">
@@ -40,9 +33,7 @@ function Apply() {
                     How To Apply
                   </Link>
                 </li>
-                <li>
-                  <Link to={"/academics/school-fees"}>School Fees</Link>
-                </li>
+                
                 <li>
                   <Link to={"/academics/result_&_scholarships"}>Transfer</Link>
                 </li>

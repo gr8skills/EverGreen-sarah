@@ -1,8 +1,7 @@
 import React from "react";
 import Pex from "../../../../assets/outing.png";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
-import { CBreadcrumbItem } from "@coreui/react";
-import { CBreadcrumb } from "@coreui/react";
+
 import Icofont from "react-icofont";
 
 function Module() {
@@ -14,17 +13,11 @@ function Module() {
           <div class="overlay4"></div>
         </div>
       </section>
-      <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
-        <CBreadcrumbItem href="/">&nbsp; Home</CBreadcrumbItem>
-        <CBreadcrumbItem href="/academics/administrators-message">
-          Academics
-        </CBreadcrumbItem>
-        <CBreadcrumbItem active>Junior Primary</CBreadcrumbItem>
-      </CBreadcrumb>
+     
       <section className="container">
         <div className="comments col-md-12 flexy">
           <div className="intro col-md-9 sen">
-            <small>Learning </small>
+          
             <header>Curriculum</header>
             <h4>Nigerian And British Curriculum</h4>
             <p>
@@ -67,9 +60,7 @@ function Module() {
           <div className="create col-md-2 ">
             <div className="sub-cover">
               <ul className="sub-menu">
-                <li>
-                  <Link to={"/"}>Home</Link>
-                </li>
+                
                 <li>
                   <Link to={"/learn/early-years"}>Infant School</Link>
                 </li>

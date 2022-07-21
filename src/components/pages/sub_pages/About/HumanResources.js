@@ -19,14 +19,7 @@ function HumanResources() {
           <div class="overlay4"></div>
         </div>
       </section>
-      <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
-        <CBreadcrumbItem href="/">&nbsp; Home</CBreadcrumbItem>
-        <CBreadcrumbItem href="/about/administrators-message">
-          About
-        </CBreadcrumbItem>
-        <CBreadcrumbItem active>History of the School</CBreadcrumbItem>
-      </CBreadcrumb>
-
+    
       <section className="container">
         <div className="comments">
           <div className="intro">

@@ -1,8 +1,7 @@
 import React from 'react';
 import Pex from "../../../../assets/kidsing2.png";
 import Map from './Map';
-import { CBreadcrumbItem } from '@coreui/react'
-import { CBreadcrumb } from '@coreui/react'
+
 import { Link } from 'react-router-dom';
 import { useState } from "react";
 
@@ -27,18 +26,11 @@ function Contact() {
           <div class="overlay4"></div>
         </div>
       </section>
-      <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
-        <CBreadcrumbItem href="/">&nbsp; Home</CBreadcrumbItem>
-        <CBreadcrumbItem href="/about/administrators-message">
-          About
-        </CBreadcrumbItem>
-        <CBreadcrumbItem active>Contact</CBreadcrumbItem>
-      </CBreadcrumb>
-
+     
       <section className="container">
         <div className="comments">
           <div className="intro">
-            <small>ADMISSION </small>
+           
             <header>Contact </header>
           </div>
           <div className="create">
@@ -57,9 +49,7 @@ function Contact() {
                     Proprietor’s Message
                   </Link>
                 </li>
-                <li>
-                  <Link to={"/about/history"}>History Of The School</Link>
-                </li>
+             
                 <li>
                   <Link to={"Conduct"}>Parents-code-of conduct</Link>
                 </li>
@@ -83,11 +73,11 @@ function Contact() {
                   <br /> 09026646424, 09087504476
                 </p>
               </div>
-              <div>
+              <div className="col-md-4">
                 <h6>Address: </h6>
                 <p>
-                  Permanent Site-#8 Aguleri Street, Opposite <br />
-                  High Court, Independence Layout,
+                  Evergreen College: No 3 Presidential close beside Niger
+                  Foundation Hospital Independence,
                   <br /> Enugu State, Nigeria.
                 </p>
               </div>
@@ -95,7 +85,7 @@ function Contact() {
                 <h6>Enquiries Email: </h6>
                 <p>
                   {" "}
-                  evergreenschoolng@gmail.com <br /> Mon-Fri(8am-5pm)
+                  evergreenschoolsenugu2020@gmail.com <br /> Mon-Fri(8am-5pm)
                   <br /> Saturday-Sunday (Closed)
                 </p>
               </div>

@@ -11,8 +11,6 @@ import GalleryIndex3 from "../../components/gallery/GalleryIndex3";
 import GalleryIndex0 from "../../components/gallery/GalleryIndex0";
 
 import "./Gallery.css";
-import { CBreadcrumbItem } from "@coreui/react";
-import { CBreadcrumb } from "@coreui/react";
 function Gallery() {
     const [value, setValue] = React.useState(0);
   return (
@@ -20,26 +18,18 @@ function Gallery() {
       <section>
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
-            <div class="overlay4"></div>
+          <div class="overlay4"></div>
         </div>
       </section>
 
-      <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
-        <CBreadcrumbItem href="/">&nbsp; Home</CBreadcrumbItem>
-
-        <CBreadcrumbItem active>Gallery</CBreadcrumbItem>
-      </CBreadcrumb>
+   
 
       <section className="container">
         <div className="gallery-head">
-          <label2 htmlFor="">EXPLORE</label2>
           <h1>Gallery</h1>
           <p>
             Our Campus Have A Lot To Offer For Our Students{" "}
-            <span className="levt">
-              {" "}
-              <img className="circle img-fluid " src={Circle} alt="" />
-            </span>
+            
           </p>
         </div>
 
@@ -60,14 +50,12 @@ function Gallery() {
             }}
           >
             <Tab label="All" />
-            <Tab label="Classes" />
-            <Tab label="Cultural Events" />
-            <Tab label="Graduation" />
+            <Tab label="Cultural events" />
+            <Tab label="Graduation/Concerts" />
             <Tab label="Sports Contests" />
-            <Tab label="Concerts" />
             <Tab label="Clubs" />
+            
 
-            <Tab label="School Facilities" />
           </Tabs>
           {/* <h3>{value + 1} </h3> */}
           {value === 0 ? <GalleryIndex /> : ""}
@@ -75,10 +63,8 @@ function Gallery() {
           {value === 2 ? <GalleryIndex3 /> : ""}
           {value === 3 ? <GalleryIndex3 /> : ""}
           {value === 4 ? <GalleryIndex2 /> : ""}
-          {value === 5 ? <GalleryIndex2 /> : ""}
-          {value === 6 ? <GalleryIndex2 /> : ""}
-                    {value === 7 ? <GalleryIndex2 /> : ""}
-
+          
+          
         </div>
       </section>
     </>

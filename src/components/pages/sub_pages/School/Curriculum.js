@@ -1,7 +1,6 @@
 import React from 'react'
 import Pex from "../../../../assets/draw2.png";
-import { CBreadcrumbItem } from '@coreui/react'
-import { CBreadcrumb } from '@coreui/react'
+
 import Rev from "../../../../assets/party.png";
 import Pray from "../../../../assets/mofty2.png";
 import Arts from "../../../../assets/recycle3.png";
@@ -19,19 +18,13 @@ function Curriculum() {
       <section>
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
-           <div class="overlay4"></div>
-
+          <div class="overlay4"></div>
         </div>
       </section>
-      <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
-        <CBreadcrumbItem href="/">&nbsp; Home</CBreadcrumbItem>
-        <CBreadcrumbItem active>Student Life</CBreadcrumbItem>
-      </CBreadcrumb>
 
       <section className="container">
         <div className="comments">
           <div className="intro">
-            <small>HOME </small>
             <header>Student Life</header>
           </div>
           <div className="create">
@@ -51,7 +44,7 @@ function Curriculum() {
               <ul className="col-md-12 ">
                 <h2 className="accTitle">Annual Student Traditions</h2>
 
-                <input type="checkbox" id="title1" className="hideI"/>
+                <input type="checkbox" id="title1" className="hideI" />
                 <label for="title1">
                   Evergreen School Thanksgiving & Young Alumni Luncheon
                 </label>
@@ -71,7 +64,7 @@ function Curriculum() {
                   </p>
                 </div>
 
-                <input type="checkbox" id="title2" className="hide"/>
+                <input type="checkbox" id="title2" className="hide" />
                 <label for="title2">Retreats</label>
 
                 <div className="content flexy col-md-12">
@@ -89,7 +82,7 @@ function Curriculum() {
                   </div>
                 </div>
 
-                <input type="checkbox" id="title3" className="hide"/>
+                <input type="checkbox" id="title3" className="hide" />
                 <label for="title3" className="">
                   Christmas At Evergreen School
                 </label>
@@ -111,7 +104,7 @@ function Curriculum() {
                   </p>
                 </div>
 
-                <input type="checkbox" id="title4" className="hide"/>
+                <input type="checkbox" id="title4" className="hide" />
                 <label for="title4" className="">
                   Charity
                 </label>
@@ -135,8 +128,8 @@ function Curriculum() {
               <ul className="col-md-12">
                 <h2 className="accTitle">Clubs & Activities</h2>
 
-                <input type="checkbox" id="title5" className="hide"/>
-                <label for="title5">Activities</label>
+                <input type="checkbox" id="title5" className="hide" />
+                <label for="title5">Clubs</label>
 
                 <div className="content flexy col-md-12">
                   <div className="col-md-5">
@@ -146,40 +139,24 @@ function Curriculum() {
                   <div className="col-md-4">&nbsp;</div>
 
                   <ul classname="col-md-3">
-                    <li>Birding Club</li>
-                    <li>Board Game Club</li>
+                    <li>Robotics</li>
+                    <li>Music</li>
 
-                    <li>Boxing Club</li>
-
-                    <li>Chess Club</li>
-
-                    <li>Culinary Club</li>
-                    <li>Sports Club</li>
-
-                    <li>Paintball Club</li>
-
-                    <li>Science Club</li>
+                    <li>Dance</li>
                   </ul>
                 </div>
 
-                <input type="checkbox" id="title6" className="hide"/>
-                <label for="title6">Academic & Competition CLub</label>
+                <input type="checkbox" id="title6" className="hide" />
+                <label for="title6">ACTIVITIES</label>
 
                 <div className="content flexy col-md-12">
                   <ul classname="col-md-3">
-                    <li>Engineering Club</li>
-                    <li>League of Computer Scientists</li>
+                    <li>Chess</li>
+                    <li>Scrabble</li>
 
-                    <li>Math Club</li>
+                    <li>Arts and performance</li>
 
-                    <li>Medical Science Club</li>
-
-                    <li>Microfinance Club</li>
-                    <li>National Junior Classical League</li>
-
-                    <li>Philosophy and Ethics Club</li>
-
-                    <li>Speech and Debate</li>
+                    
                   </ul>
 
                   <div className="col-md-4">&nbsp;</div>
@@ -190,56 +167,9 @@ function Curriculum() {
                   </div>
                 </div>
 
-                <input type="checkbox" id="title7" className="hide"/>
-                <label for="title7" className="">
-                  Leadership Clubs
-                </label>
+              
+                
 
-                <div className="content flexy col-md-12">
-                  <div className="col-md-5">
-                    {" "}
-                    <img src={Leadership} alt="" className="house-img accImg" />
-                  </div>
-                  <div className="col-md-4">&nbsp;</div>
-
-                  <ul classname="col-md-3">
-                    <li>Academic and Leadership Team</li>
-                    <li>Student Alumni Ambassadors</li>
-
-                    <li>Student Leadership Council</li>
-                  </ul>
-                </div>
-
-                <input type="checkbox" id="title8" className="hide"/>
-                <label for="title8" className="">
-                  Production, Arts & Performance
-                </label>
-
-                <div className="content flexy col-md-12">
-                  <ul classname="col-md-3">
-                    <li>Book Club</li>
-                    <li>Cultural Arts Club</li>
-
-                    <li>Dramatics Society</li>
-
-                    <li>Film Club</li>
-
-                    <li>Freshman Drama</li>
-                    <li>Lexicon</li>
-
-                    <li>Photography Club</li>
-
-                    <li>Podcast Club</li>
-                    <li>Poetry Club</li>
-                  </ul>
-
-                  <div className="col-md-4">&nbsp;</div>
-
-                  <div className="col-md-5">
-                    {" "}
-                    <img src={Arts} alt="" className="house-img accImg" />
-                  </div>
-                </div>
               </ul>
             </div>
           </div>

@@ -360,3 +360,23 @@
 .testifier h6{
     color:rgb(143,38,40)
 }
+
+
+
+/* 
+.carousel::after{
+        display: none !important;
+        clear: both;
+        content: "";
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+        z-index: 100;
+        margin-top: -50px;
+        height: 60px;
+        width: 100%;
+        border: 10px solid transparent;
+        border-bottom: 0;
+        background-color:rgb(31,71,17);
+
+    } */

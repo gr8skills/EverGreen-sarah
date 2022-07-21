@@ -1,7 +1,6 @@
 import React from 'react'
 import Pex from "../../../../assets/mask3.png";
-import { CBreadcrumbItem } from "@coreui/react";
-import { CBreadcrumb } from "@coreui/react";
+
 import Exam from "../../../../assets/examstudents4.png";
 import Chess from "../../../../assets/chess2.png";
 import Casual from "../../../../assets/casual.png";
@@ -22,18 +21,11 @@ function SecSchool() {
         </div>
       </section>
 
-      <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
-        <CBreadcrumbItem href="/">&nbsp; Home</CBreadcrumbItem>
-        <CBreadcrumbItem href="/academics/administrators-message">
-          Academics
-        </CBreadcrumbItem>
-        <CBreadcrumbItem active>Junior Primary</CBreadcrumbItem>
-      </CBreadcrumb>
+      
       <section className="container">
         <div className="comments col-md-12 flexy">
           <div className="intro col-md-9 sen sec">
-            <small>Learning </small>
-            <header>Evergreen College</header>
+                <header>Evergreen College</header>
 
             <h4>Senior School [grade 10 – grade 12] (15 – 17 years)</h4>
             <p>
@@ -51,9 +43,7 @@ function SecSchool() {
           <div className="create col-md-3 ">
             <div className="sub-cover">
               <ul className="sub-menu">
-                <li>
-                  <Link to={"/"}>Home</Link>
-                </li>
+                
                 <li>
                   <Link to={"/learn/early-years"}>Infant School</Link>
                 </li>

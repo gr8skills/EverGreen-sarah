@@ -91,10 +91,6 @@
 
 
 
-    
-    .footerlogo{
-        margin-bottom:50px;
-    }
     .footer{
         box-sizing: border-box;
         display: blocK;
@@ -107,7 +103,7 @@
         background-size: cover;
         justify-content: center;
         display: flex;
-        padding-top:50px;
+        padding-top:20px;
     }
     
     .footer a{
@@ -465,7 +461,8 @@
 
 .Linput{
   padding:22px !important;
-
+ border-top-left-radius:35px !important;
+    border-bottom-left-radius:35px !important
 }
 
 .Lbutton{
@@ -474,7 +471,12 @@
   border-top-right-radius:5px;
   border-bottom-right-radius:5px;
   border:hidden !important;
-  padding:12px
+  padding:0 7px 0 7px;
+  height:47px;
+  margin-top:15px;
+  margin-left:-13px;
+  border-top-right-radius:35px !important;
+    border-bottom-right-radius:35px !important
 
 }
 .firstc{
@@ -635,8 +637,8 @@ Lbutton:hover{
 }
 
 .w-mark img{
-    height:70px;
-    margin-top:50px;
+    height:45px;
+    margin-top:30px;
 }
 
 .copi{

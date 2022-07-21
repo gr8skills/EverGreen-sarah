@@ -49,7 +49,7 @@ const [isShown3, setIsShown3] = useState(true);
           </div>
 
           <div className="col-md-4 go">
-            <Link to="/Contact" className="go">
+            <Link to="/Gallery" className="go">
               <div
                 onMouseEnter={() => setIsShown2(false)}
                 onMouseLeave={() => setIsShown2(true)}
@@ -71,6 +71,7 @@ const [isShown3, setIsShown3] = useState(true);
           <div className="col-md-4">
             <a
               href="https://evergreen.educare.school/admission-form"
+              target="_blank"
               className="go"
             >
               <div
@@ -107,7 +108,7 @@ const [isShown3, setIsShown3] = useState(true);
                     className="form-control Linput"
                     placeholder="Your Email Here"
                   />
-                  <div classname="input-group-prepend">
+                  <div className="input-group-prepend">
                     <button
                       className="btn  border border-left-0 Lbutton"
                       type="submit"
@@ -122,46 +123,57 @@ const [isShown3, setIsShown3] = useState(true);
             <h6 className="folow">FOLLOW US</h6>
             <ul className="list-unstyled list-inline">
               <li className="list-inline-item">
-                <img src={Facebook} alt="stairs " className="fluid" />
+                <a
+                  href="https://m.facebook.com/Evergreenschoolsenugu"
+                  target="_blank"
+                >
+                  {" "}
+                  <img src={Facebook} alt="stairs " className="fluid" />
+                </a>
               </li>
               <li className="list-inline-item">
                 <img src={Instagram} alt="stairs " className="fluid" />
               </li>
               <li className="list-inline-item">
                 {" "}
-                <img src={Linkedin} alt="stairs " className="fluid" />
+                <a
+                  href=" https://ng.linkedin.com/in/evergreen-school-a526961b8?original_referer=https%3A%2F%2Fwww.google.com%2F"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  {" "}
+                  <img src={Linkedin} alt="stairs " className="fluid" />
+                </a>
               </li>
             </ul>
           </div>
 
           <div className="col-md-6 secondc">
             <div className="col-md-12 flexy">
-              <div className="col-md-2">&nbsp;</div>
-              <div className="col-md-8">
-                <Link to={"/"}>
-                  <img src={SchLogo} alt=" logo" className="footerlogo" />
-                </Link>{" "}
-              </div>
-            </div>
-
-            <div className="col-md-12 flexy">
-              <div className="col-md-6">
-                <h5>Permanent Site</h5>
+              <div className="col-md-4">
+                <h5>Evergreen College:</h5> <br />
                 <p>
-                  Permanent Site-#8 Aguleri Street, Opposite High Court,
-                  Independence Layout, Enugu State, Nigeria.
+                  No 3 Presidential close beside Niger Foundation Hospital
+                  Independence Layout Enugu.
                 </p>
                 <br />
                 <h5>Phone</h5>
                 08068782862, 09026646424, 09087594476
               </div>
 
-              <div className="col-md-6">
-                <h5>Day School</h5>
-                <p>8 Aguleri Stree, Opposite High Court, Enugu State</p>
+              <div className="col-md-4">
+                <h5>Evergreen Primary school:</h5> <br />
+                <p>
+                  No 8 Aguleri Street Independence Layout, opposite state high
+                  Court Enugu.
+                </p>
                 <br />
                 <h5>Email</h5>
-                evergreenschoolng@gmail.com
+                evergreenschoolsenugu2020@gmail.com
+              </div>
+              <div className="col-md-4">
+                <h5>Evergreen Creche:</h5> <br />
+                <p>No 8 Alan Ikoku Street Independence Layout Enugu</p>
               </div>
             </div>
           </div>
@@ -173,16 +185,18 @@ const [isShown3, setIsShown3] = useState(true);
                 <div className="col-md-6 weblist">
                   <ul class="list-unstyled">
                     <li>
-                      <a href="index.html">Home</a>
+                      <a
+                        href="https://evergreen.educare.school/admission-form"
+                        target="_blank"
+                      >
+                        Apply
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Apply</a>
+                      <a href="/news/school_news">News and Events</a>
                     </li>
                     <li>
-                      <a href="news.html">News and Events</a>
-                    </li>
-                    <li>
-                      <a href="gallery1.html">Gallery</a>
+                      <a href="/gallery">Gallery</a>
                     </li>
                     <li>
                       <a href="student.html">Student Life</a>
@@ -193,20 +207,25 @@ const [isShown3, setIsShown3] = useState(true);
                 <div className="col-md-6 ">
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#">About Us</a>
+                      <a href="/about/history">About Us</a>
                     </li>
                     <li>
-                      <a href="#">Child Protection</a>
+                      <a href="/about/Conduct">Code of Conduct</a>
                     </li>
                     <li>
-                      <a href="#">Primary School</a>
+                      <a href="/learn/secondary_school">College</a>
                     </li>
-                    <li className="list-inline-item">
+                    {/* <li className="list-inline-item">
                       <a
                         href="https://evergreenschools.educare.school/enquiry"
                         target="_blank"
                       >
                         Inquiry
+                      </a>
+                    </li> */}
+                    <li className="list-inline-item">
+                      <a href="/learn/primary_school" >
+                        Primary School
                       </a>
                     </li>
                   </ul>
@@ -220,7 +239,7 @@ const [isShown3, setIsShown3] = useState(true);
                 target={"_blank"}
                 style={{ display: "inline-block" }}
               >
-                <img src={WaterMark} alt="Aisa" className="img-fluid"></img>
+                <img src={WaterMark} alt="educare" className="img-fluid"></img>
               </a>
             </div>
           </div>
@@ -249,8 +268,7 @@ const [isShown3, setIsShown3] = useState(true);
           <div className="col-md-7">&nbsp;</div>
           <div className="col-md-2 lastcopi">
             <p>
-              <a href="inquiry.html">Contact Us</a> <span>|</span> Data
-              Production
+              <a href="/Contact">Contact Us</a> <span>|</span> Data Production
             </p>
           </div>
         </div>
