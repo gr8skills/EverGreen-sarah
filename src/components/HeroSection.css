@@ -1020,13 +1020,18 @@ a .read{
 
    .game{
        height:300px;
-       width:300px;
        border-radius :50%;
-       /* top:257%; 
-       left:42%; */
-       position:absolute;
-
    }
+
+
+
+
+   .gameb{
+       height:450px;
+       border-radius :50%;
+   }
+
+
 
 .changers{
     /* margin-top:250px !important; */
@@ -1034,21 +1039,22 @@ a .read{
     padding-top:150px
 }
    .game0{
-       height:550px;
-       width:550px;
+       height:620px;
+       width:620px;
  background-image:url('../assets/dashed2.png');
        background-size:cover;
        background-repeat: no-repeat;
        background-position: center;      
         border-radius :50%;
-       top:0;
-       margin-left:31%;
+        padding-left:20px;
+       padding-right:20px; 
+       /* top:0; */
+       margin-left:28%;
+              padding-top:150px;
+
 text-align: center;
-       margin-top:180px;
-       padding-top:150px;
-       margin-top:565px;
-       padding-left:20px;
-       padding-right:20px;
+       margin-top:-260px;
+      
 
    }
 
@@ -1056,93 +1062,76 @@ text-align: center;
     font-family: phylosopher;
 }
    .game1{
-      top:200%; 
-       left:12%;
-height:400px;
-       width:400px;
+      
        background-image:url('../assets/chess.png');
        background-size:cover;
        background-repeat: no-repeat;
        background-position: center;
-margin-top:180px;
+margin-top:150px;
 
    }
 
 
       .game2{
-      top:169%; 
-       left:25%;
- height:260px;
-       width:260px;
+      
 background-image:url('../assets/singkids.png');
        background-size:cover;
        background-repeat: no-repeat;
        background-position: center;
-margin-top:180px;
+       margin-left:-40px
 
    }
 
 
 
       .game3{
-      top:165%; 
-       left:42%;
- height:400px;
-       width:400px;
+     
 
 background-image:url('../assets/zoo.png');
        background-size:cover;
        background-repeat: no-repeat;
        background-position: center;
-margin-top:180px;
+       margin-left:30px
 
 
    }
 
 
         .game4{
-       /* background-color:yellow; */
-      top:245%; 
-       left:10%;
- height:260px;
-       width:260px;
+      
 background-image:url('../assets/champ.png');
        background-size:cover;
        background-repeat: no-repeat;
        background-position: center;
-margin-top:180px;
+margin-top:-280px;
 
    }
 
 
 
         .game5{
-       /* background-color:pink; */
-      top:255%; 
-       left:25%;
-height:400px;
-       width:400px;
+       
        background-image:url('../assets/examstudents4.png');
        background-size:cover;
        background-repeat: no-repeat;
        background-position: center;
-margin-top:180px;
+margin-top:-80px;
+margin-left:-80px
 
    }
 
 
 
         .game6{
-      top:270%; 
-       left:49%;
- height:260px;
-       width:260px;
-       margin-bottom:300px;
+    
        background-image:url('../assets/recycle.png');
        background-size:cover;
        background-repeat: no-repeat;
        background-position: center;
-margin-top:180px;
+
+margin-top:120px;
+margin-left:20px;
+margin-right:40px
 
 
    }
@@ -1150,25 +1139,21 @@ margin-top:180px;
 
 
         .game7{
-       /* background-color:black; */
-      top:230%; 
-       left:57%;
- height:400px;
-       width:400px;
+      
 background-image:url('../assets/examstudents.png');
        background-size:cover;
        background-repeat: no-repeat;
        background-position: center;
-margin-top:180px;
+     
+margin-top:-290px;
+margin-left:-150px
 
    }
 
    .gammers{
-       height:900px;
-       /* background-color:brown; */
-     /* padding-top:500px;
-     padding-bottom:500px;
-margin-top:300px */
+       height:fit-content;
+       padding-top:200px
+    
 
    }
 
@@ -1358,6 +1343,26 @@ background-image:url('../assets/examstudents.png');
 
   
 }
+.game01{
+       height:390px;
+     width:390px;
+ background-image:url('../assets/dashed2.png');
+       background-size:cover;
+       background-repeat: no-repeat;
+       /* background-position: center;       */
+        border-radius :50%;
+        padding-left:20px;
+       padding-right:20px; 
+       
+              padding-top:100px;
+
+text-align: center;      
+
+   }
+
+
+
+
 
 .greet p{
     font-family:open sans;

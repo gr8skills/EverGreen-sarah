@@ -107,20 +107,15 @@ function HeroSection() {
         </div>
         {/* <div className="whitespace">&nbsp;</div> */}
 
-        <div className="gammers">
-          <div className="game game1"></div>
+        <div className="gammers col-md-12">
+          <div className="flexy">
+            <div className="col-md-1">&nbsp;</div>
+            <div className="gameb game1 col-md-3"></div>
 
-          <div className="game game2"></div>
+            <div className="game game2 col-md-2"></div>
 
-          <div className="game game3"></div>
-
-          <div className="game game4"></div>
-          <div className="game game5"></div>
-
-          <div className="game game6"></div>
-
-          <div className="game game7"></div>
-
+            <div className="gameb game3 col-md-3"></div>
+          </div>
           <div className="game0">
             <h1>
               STILL EVERGREEN <br />
@@ -132,6 +127,16 @@ function HeroSection() {
               (Celebrating 10 years of God's goodness).
             </h1>
           </div>
+          <div className="flexy">
+            <div className="col-md-1">&nbsp;</div>
+
+            <div className="game game4 col-md-2"></div>
+            <div className="gameb game5 col-md-3"></div>
+
+            <div className="game game6 col-md-2"></div>
+
+            <div className="gameb game7 col-md-3"></div>
+          </div>
         </div>
 
         {/* this is for mobile view */}
@@ -140,21 +145,7 @@ function HeroSection() {
           className="gammers2"
           style={{ textAlign: "center", marginTop: "80px" }}
         >
-          <h3
-            style={{
-              borderBottom: "dashed 4px grey",
-              borderTop: "dashed 4px grey",
-              marginTop: "30px",
-            }}
-          >
-            STILL EVERGREEN <br />
-            <span style={{ fontSize: "50px", color: "rgb(32,71,17)" }}>
-              {" "}
-              @ 10
-            </span>{" "}
-            <br />
-            (Celebrating 10 years of God's goodness).
-          </h3>
+          
           <div className="flexyM col-md-12">
             <div className="col-4">&nbsp;</div>
             <div className="col-8 gameM game-1 "></div>
@@ -167,6 +158,17 @@ function HeroSection() {
           <div className="flexyM col-md-12">
             <div className="col-4">&nbsp;</div>
             <div className="col-8 gameM game-3 "></div>
+          </div>
+          <div className="game01 ">
+            <h1>
+              STILL EVERGREEN <br />
+              <span style={{ fontSize: "80px", color: "rgb(32,71,17)" }}>
+                {" "}
+                @ 10
+              </span>{" "}
+              <br />
+              (Celebrating 10 years of God's goodness).
+            </h1>
           </div>
           <div className="flexyM col-md-12">
             <div className="col-8 gameM game-4 "></div>
