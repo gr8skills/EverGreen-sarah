@@ -1039,8 +1039,8 @@ a .read{
     padding-top:150px
 }
    .game0{
-       height:620px;
-       width:620px;
+       height:700px;
+       width:700px;
  background-image:url('../assets/dashed2.png');
        background-size:cover;
        background-repeat: no-repeat;
@@ -1049,9 +1049,9 @@ a .read{
         padding-left:20px;
        padding-right:20px; 
        margin-left:28%;
-              padding-top:150px;
+              padding-top:220px;
 text-align: center;
-       margin-top:-260px;
+       /* margin-top:-260px; */
       
 
    }
@@ -1150,8 +1150,15 @@ margin-left:-150px
 
    .gammers{
        height:fit-content;
-       padding-top:200px
-    
+       padding-top:150px;
+       padding-bottom:150px;
+    background-color:rgb(255, 244, 244)
+
+   } .gammers2{
+       height:fit-content;
+       padding-top:80px;
+       padding-bottom:80px;
+    background-color:rgb(255, 244, 244)
 
    }
 

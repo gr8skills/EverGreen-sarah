@@ -62,7 +62,7 @@ function Primary() {
             <div className="sub-cover">
               <ul className="sub-menu">
                 <li>
-                  <Link to={"/learn/early-years"}>Creche</Link>
+                  <Link to={"/learn/early-years"}>Early Years</Link>
                 </li>
                 <li>
                   <Link className="active" to={"/learn/nursery"}>
@@ -70,9 +70,7 @@ function Primary() {
                   </Link>
                 </li>
 
-                <li>
-                  <Link to={"/learn/nursery"}>Junior Primary</Link>
-                </li>
+                
                 <li>
                   <Link to={"/learn/nursery"}>Secondary</Link>
                 </li>

@@ -18,7 +18,7 @@ function Eyfs() {
       <section className="container">
         <div className="comments">
           <div className="intro">
-            <header>Infant School</header>
+            <header>Early Years</header>
           </div>
 
           <div className="col-md-12 flexy">
@@ -41,15 +41,27 @@ function Eyfs() {
                 Preschool 2; 2 years
               </p>
               <br />
+
+              <h3>Nursery</h3>
+              <p>
+                In Evergreen nursery section we take in our; Ability to make
+                children read at age 3. Our structured handwriting and vast
+                vocabulary. Well grounded in our ability to work with numbers ie
+                numbers before and after, association of numbers to
+                quantity,number names, place value everything about numbers. We
+                also run EYFS hence our curriculum is enriched with lots of
+                hands on activities to make children enjoy learning and love
+                coming to school.
+              </p>
             </div>
-            <div className="col-md-1">&nbsp;</div>
+            <div className="col-md-2">&nbsp;</div>
 
             <div className=" create col-md-2">
               <div className="sub-cover">
                 <ul className="sub-menu">
                   <li>
                     <Link className="active" to={"/learn/early-years"}>
-                      Infant School
+                     Early Years
                     </Link>
                   </li>
                   <li>
@@ -67,7 +79,6 @@ function Eyfs() {
               </div>
             </div>
           </div>
-          {}
         </div>
 
         <div className="col-md-12 flexy mov">
