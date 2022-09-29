@@ -56,7 +56,7 @@ export const navMenus = {
     //     cName: 'dropdown-link'
     // },
     {
-      title: "Infant School",
+      title: "Early Years",
       path: "/learn/early-years",
       cName: "dropdown-link",
     },

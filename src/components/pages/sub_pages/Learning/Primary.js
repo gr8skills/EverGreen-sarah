@@ -12,17 +12,14 @@ function Primary() {
       <section>
         <div className="header-img">
           <img src={Pex} alt="Header" className="img-fluid" />
-                      <div class="overlay4"></div>
-
+          <div class="overlay4"></div>
         </div>
       </section>
-      
+
       <section className="container">
         <div className="comments col-md-12 flexy">
           <div className="intro col-md-9 sen">
-           
             <header>Primary </header>
-
             <h4>Evergreen Higher Primary School (Grades 4-6)</h4>
             <p>
               Junior school at Evergreen Secondary School is more than a prelude
@@ -33,14 +30,37 @@ function Primary() {
               best of what is to come in high school. With differentiated
               instruction and workshop model classrooms, our teachers Go Beyond,
               ignite academic growth, and help students identify and nurture
-              their God-given gifts and talents – one student at a time.
+              their God-given gifts and talents – one student at a time.{" "}
             </p>
+            <br />
+            <br />
+            We excel in these ways and more; <br />
+            <ul>
+              <li>Our robust curriculum and methodology.</li>
+              <li>
+                Small Class size with teaching according to each child's
+                peculiarity and level of understanding.{" "}
+              </li>
+              <li>
+                High level of teachers employed. Consistent training and upgrade
+                of methodology to meet up with the new ideas in the society and
+                world at large.
+              </li>
+              <li>
+                Extra curricular activities that bring out the best in children.
+                Fusing morals, values and etiquette into our daily teaching.
+                <li>
+                  Evergreen schools is abreast with innovative and best world
+                  practices in the educational sector via trainings and
+                  mentorship.
+                </li>
+              </li>
+            </ul>
           </div>
           <div className="col-md-1">&nbsp;</div>
           <div className="create col-md-2 ">
             <div className="sub-cover">
               <ul className="sub-menu">
-               
                 <li>
                   <Link to={"/learn/early-years"}>Creche</Link>
                 </li>

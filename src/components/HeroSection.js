@@ -145,7 +145,6 @@ function HeroSection() {
           className="gammers2"
           style={{ textAlign: "center", marginTop: "80px" }}
         >
-          
           <div className="flexyM col-md-12">
             <div className="col-4">&nbsp;</div>
             <div className="col-8 gameM game-1 "></div>
@@ -208,22 +207,28 @@ function HeroSection() {
         <div className="divs">
           <div className="col-md-12 flexy divi">
             <div className="crech division col-md-4">
-              <div class="overlay">
-                <h4>Nursery</h4>
-                <p>(0-5 years)</p>
-              </div>
+              <Link to="/learn/early-years">
+                <div class="overlay">
+                  <h4>Early Years</h4>
+                  <p>(0-5 years)</p>
+                </div>
+              </Link>
             </div>
             <div className="higher division col-md-4">
-              <div class="overlay">
-                <h4>Junior school </h4>
-                <p> (6-11 years) (Grade 1-6)</p>
-              </div>
-            </div>{" "}
+              <Link to="/learn/primary_school">
+                <div class="overlay">
+                  <h4>Junior school </h4>
+                  <p> (6-11 years) (Grade 1-6)</p>
+                </div>
+              </Link>
+            </div>
             <div className="secondary division col-md-4">
-              <div class="overlay">
-                <h4>College</h4>
-                <p>(11-17 years)</p>
-              </div>
+              <Link to="/learn/secondary_school">
+                <div class="overlay">
+                  <h4>College</h4>
+                  <p>(11-17 years)</p>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

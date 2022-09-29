@@ -173,7 +173,7 @@ const [isShown3, setIsShown3] = useState(true);
               </div>
               <div className="col-md-4">
                 <h5>Evergreen Creche:</h5> <br />
-                <p>No 8 Alan Ikoku Street Independence Layout Enugu</p>
+                <p>No 8 Alvan Ikoku Street Independence Layout Enugu</p>
               </div>
             </div>
           </div>

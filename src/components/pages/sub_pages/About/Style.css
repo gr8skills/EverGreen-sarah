@@ -721,7 +721,13 @@ min-height: 300px !important;
   margin-top:-40px
 }
 
-
+.icon{
+  height:10px;
+  margin-right:10px;
+}.icon2{
+  height:7px;
+  margin-right:10px;
+}
 .mov{
   margin-top:-100px !important
 }

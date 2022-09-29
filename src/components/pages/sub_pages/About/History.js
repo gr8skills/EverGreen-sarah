@@ -68,10 +68,10 @@ function History() {
               </ul>
             </div>
             <p style={{ paddingTop: "0", margin: "0" }}>
-             Evergreen is a FAITH based school. We believe in the birth, death and
-              resurrection of our Lord Jesus Christ. Based on this foundation,
-              children will be groomed to understand their Christian faith and
-              be morally upright.
+              Evergreen is a FAITH based school. We believe in the birth, death
+              and resurrection of our Lord Jesus Christ. Based on this
+              foundation, children will be groomed to understand their Christian
+              faith and be morally upright.
             </p>
 
             <h4 className="bio" style={{ marginTop: "60px" }}>
@@ -129,24 +129,20 @@ function History() {
           <div className="col-md-6 " style={{ marginTop: "90px" }}>
             <h4>Our Curriculum</h4>
             <p>
-              To be the educational cradle of choice in our area of operation
-              What is now known as Evergreen Secondary School emanated from Rev
-              Mother Arcade, OLA of blessed memory, who prayed to our Lady that
-              the land (Evergreen Compound) be given to the Catholic Mission to
-              establish a School? She promised our Lady that if her request was
-              granted the school would be named after her. Thus, came the name
-              “Evergreen” in 1950 – a name that has now, become the landmark in
-              the fast-spreading Lagos Metropolis of today.
+              Evergreen College is built upon a futuristic mindset which seeks
+              to empower learners with competencies that will enable them take
+              on our ever dynamic world. Academic work in Evergreen College is
+              based on a sublime blend of the Cambridge Curriculum and the
+              Nigerian National Curriculum, driven by the Thinking School
+              philosophy (Thinking Matters, University of Exeter, United
+              Kingdom).
             </p>
             <p>
-              {" "}
-              What is now known as Evergreen Secondary School emanated from Rev
-              Mother Arcade, OLA of blessed memory, who prayed to our Lady that
-              the land (Evergreen Compound) be given to the Catholic Mission to
-              establish a School? She promised our Lady that if her request was
-              granted the school would be named after her. Thus, came the name
-              “Evergreen” in 1950 – a name that has now, become the landmark in
-              the fast-spreading Lagos Metropolis of today.
+              The Nigerian National Curriculum offers local content which
+              provides an introspective experience and an understanding for the
+              learner, of the immediate environment by providing a local context
+              to a global experience. Evergreen College comprises the Junior
+              Secondary School (JSS) and the Senior Secondary School (SSS).
             </p>
           </div>
         </div>
