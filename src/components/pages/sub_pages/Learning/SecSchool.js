@@ -4,7 +4,7 @@ import Icon from "../../../../assets/niceicon.png";
 import DotIcon from "../../../../assets/dot.png";
 
 import Exam from "../../../../assets/examstudents4.png";
-import Chess from "../../../../assets/chess2.png";
+import Chess from "../../../../assets/valedictory.jpg";
 import Casual from "../../../../assets/casual.png";
 
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
@@ -49,7 +49,11 @@ function SecSchool() {
               based on a sublime blend of the Cambridge Curriculum and the
               Nigerian National Curriculum, driven by the Thinking School
               philosophy (Thinking Matters, University of Exeter, United
-              Kingdom). The Cambridge Curriculum offers the following benefits:
+              Kingdom). <br />
+              <br />
+              <strong>
+                The Cambridge Curriculum offers the following benefits:
+              </strong>
             </p>
           </div>
           {/* <div className="col-md-1">&nbsp;</div> */}
@@ -173,74 +177,12 @@ function SecSchool() {
             <img src={Exam} alt="Header" className="img-fluid" />
           </div>
         </div>
-        <div className="col-md-12 flexy " style={{ marginTop: "180px" }}>
+
+        <div className="flexy evergreen-facts">
           <div className="col-md-6">
             <img src={Chess} alt="Header" className="img-fluid" />
           </div>
-          {/* <div className="col-md-1">&nbsp;</div> */}
-          <div className="col-md-6 col-12 ml">
-            <h3>Junior Secondary</h3>
-            <SubjectTable
-              cols={cols}
-              data={data}
-              isDark={isDark}
-              bordered={bordered}
-              striped={striped}
-              hoverable={hoverable}
-            />
-          </div>
-        </div>
-
-        <div className="col-md-12" style={{ marginTop: "200px" }}>
-          <h1>Senior Secondary School (SSS)</h1>
-
-          <p>
-            Students may choose either the National (WASSCE) or the
-            International (Cambridge GCE O level) curriculum. They will also
-            have to make a well guided choice between 3 different subject
-            majors: Science, Social Science and Arts.
-          </p>
-        </div>
-
-        <div className="col-md-12 flexy" style={{ marginTop: "80px" }}>
-          <div className="col-md-6 col-12 ml">
-            <h3>SCIENCE SUBJECTS </h3>
-            <SubjectTable
-              cols={core.cols}
-              data={core.data}
-              isDark={core.isDark}
-              bordered={core.bordered}
-              striped={core.striped}
-              hoverable={core.hoverable}
-            />
-          </div>
-          {/* <div className="col-md-2">&nbsp;</div> */}
-
-          <div className="col-md-6 col-12 ml">
-            <h3>SOCIAL SCIENCE SUBJECTS </h3>
-            <SubjectTable
-              cols={social.cols}
-              data={social.data}
-              isDark={social.isDark}
-              bordered={social.bordered}
-              striped={social.striped}
-              hoverable={social.hoverable}
-            />
-          </div>
-        </div>
-        <div className="flexy">
-          <div className="col-md-6 col-12 ml">
-            <h3>ART SUBJECTS </h3>
-            <SubjectTable
-              cols={art.cols}
-              data={art.data}
-              isDark={art.isDark}
-              bordered={art.bordered}
-              striped={art.striped}
-              hoverable={art.hoverable}
-            />
-          </div>
-          <div className="col-md-6 ml">
+          <div className="col-md-6 ml evergreen-facts">
             <h4>QUICK FACTS ABOUT EVERGREEN COLLEGE</h4>
             <ol>
               <li>
@@ -281,17 +223,16 @@ function SecSchool() {
                 </ul>
               </li>
             </ol>
-            <p>
-              This is the school’s Unique Selling Point (USP). The solutions to
-              the above questions will be delivered through this USP by engaging
-              our training and consulting program tagged, "The pathway". In this
-              program, our children will be exposed to all the activities that
-              will build their profile and portfolio like Passion Projects,
-              Volunteering, Internships, Charity Work, etc.
-            </p>
           </div>
         </div>
-
+        <p style={{fontSize:'19px'}}>
+          This is the school’s Unique Selling Point (USP). The solutions to the
+          above questions will be delivered through this USP by engaging our
+          training and consulting program tagged, "The pathway". In this
+          program, our children will be exposed to all the activities that will
+          build their profile and portfolio like Passion Projects, Volunteering,
+          Internships, Charity Work, etc.
+        </p>
         <div className="col-md-12 flexy segments">
           <div className="col-md-4">
             <h3>

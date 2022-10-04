@@ -800,7 +800,7 @@ border-bottom-right-radius: 10px;
 }
 
 .draw{
-     background-image:url('../assets/draw.png');
+     background-image:url('../assets/classroom.png');
      background-size:cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -859,7 +859,7 @@ opacity:0;
 }
 
 .draw3{
-     background-image:url('../assets/sing.png');
+     background-image:url('../assets/maskedgirls.jpg');
      background-size:cover;
      background-position: center;
      background-repeat: no-repeat;

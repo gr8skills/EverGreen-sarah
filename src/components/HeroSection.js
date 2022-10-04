@@ -1,9 +1,9 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import scholar from "../assets/mask2.png";
-import Des from "../assets/outing.png";
-import Hard from "../assets/stagedance.png";
-import Pex from "../assets/salute6.png";
+import Des from "../assets/youngscholars2.jpg";
+import Hard from "../assets/dancers.jpg";
+import Pex from "../assets/youngscholars.jpg";
 
 import Teacher from "../assets/casual.png";
 import { Link } from "react-router-dom";

@@ -2,8 +2,8 @@ import React from 'react';
 import Carousel from 'react-elastic-carousel'
 import Item from "./Item";
 import Violin from "../assets/perform.png";
-import Interhouse from "../assets/salute.png";
-import Church from "../assets/maime.png";
+import Interhouse from "../assets/valedictory.jpg";
+import Church from "../assets/stagesing.jpg";
 import Circle2 from "../assets/Circle.png";
 import { Link } from "react-router-dom";
 
@@ -24,8 +24,6 @@ function Vision() {
             reunions, or being part of #EVERGREENDay — we'd love to see more of
             you!
           </p>
-
-        
         </div>
       </div>
 

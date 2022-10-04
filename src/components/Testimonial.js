@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import Quote from "../assets/Quote.svg";
 import Parade from "../assets/Ellipse1@2x.png";
 import Circle from "../assets/Circle.svg";
-import Hood from "../assets/hood3.png";
+import Hood from "../assets/evergreen.png";
 import Carousel from "react-bootstrap/Carousel";
 // import ReactPlayer from "react-player";
 
@@ -34,7 +34,7 @@ function Testimonial() {
               <h3>Testimonials</h3>
               <img className="land2" src={Quote} alt="" />
               <Carousel>
-                {" "}
+               
                 <Carousel.Item>
                   <p>
                     My darling grandson Joshua Chukwuemeka Okereke gave me the

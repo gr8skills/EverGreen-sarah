@@ -77,8 +77,9 @@ height: 453px;
 }
 
 .intro {
-  /* border-bottom: 1px solid rgba(97 94 94 / 23%);  */
   padding-top: 1rem;
+}.intro p{
+ font-size:26px
 }
 
 .intro small {
@@ -274,7 +275,9 @@ padding-top: 20px;
   flex: 1;
 }
 .comments p{
-  font-size:10px
+  font-size:19px
+}.comments ul li{
+  font-size:19px
 }
 .telecont div h6{
   font-family: Skia;
@@ -347,7 +350,9 @@ padding-top: 20px;
   color: #0E8D3A;
 }
 
-
+.toop ol li{
+  font-size:19px;
+}
 @media (max-width: 600px) {
   .sub-cover{
 display:none;
@@ -732,9 +737,6 @@ min-height: 300px !important;
   height:7px;
   margin-right:10px;
 }
-.mov{
-  margin-top:-100px !important
-}
 
 .mov2{
   margin-top:-200px !important
@@ -808,7 +810,13 @@ ol li{
 .ml{
   margin-right:10px !important;
 }
-
+.evergreen-facts{
+  margin-top:100px !important;
+}.evergreen-facts ul li{
+ font-size: 19px;
+}.evergreen-facts ol li{
+ font-size: 19px;
+}
 
 .overlay4 {
   position: absolute;

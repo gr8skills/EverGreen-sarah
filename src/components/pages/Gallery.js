@@ -11,6 +11,7 @@ import GalleryIndex3 from "../../components/gallery/GalleryIndex3";
 import GalleryIndex0 from "../../components/gallery/GalleryIndex0";
 
 import "./Gallery.css";
+import SimpleGallery from "../gallery/sampleGallery";
 function Gallery() {
     const [value, setValue] = React.useState(0);
   return (
@@ -66,6 +67,7 @@ function Gallery() {
           
           
         </div>
+        <SimpleGallery />
       </section>
     </>
   );

@@ -2,8 +2,8 @@ import React from "react";
 import Pex from "../../../../assets/examstudents3.png";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
-import Exam from "../../../../assets/examstudents4.png";
-import Chess from "../../../../assets/chess2.png";
+import Exam from "../../../../assets/graduationkids.png";
+import Safari from "../../../../assets/primarykids.jpg";
 import Icofont from "react-icofont";
 
 function Primary() {
@@ -34,7 +34,8 @@ function Primary() {
             </p>
             <br />
             <br />
-            We excel in these ways and more; <br />
+            <h5>We excel in these ways and more; </h5>
+            <br />
             <ul>
               <li>Our robust curriculum and methodology.</li>
               <li>
@@ -66,11 +67,10 @@ function Primary() {
                 </li>
                 <li>
                   <Link className="active" to={"/learn/nursery"}>
-                    Junior Primary
+                    Primary
                   </Link>
                 </li>
 
-                
                 <li>
                   <Link to={"/learn/nursery"}>Secondary</Link>
                 </li>
@@ -84,7 +84,7 @@ function Primary() {
         </div>
         <div className="col-md-12 flexy mov">
           <div className="col-md-6">
-            <img src={Chess} alt="Header" className="img-fluid" />
+            <img src={Safari} alt="Header" className="img-fluid" />
           </div>
 
           <div className="col-md-6">

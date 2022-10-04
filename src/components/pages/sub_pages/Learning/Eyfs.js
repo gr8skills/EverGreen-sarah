@@ -61,7 +61,7 @@ function Eyfs() {
                 <ul className="sub-menu">
                   <li>
                     <Link className="active" to={"/learn/early-years"}>
-                     Early Years
+                      Early Years
                     </Link>
                   </li>
                   <li>
@@ -83,11 +83,10 @@ function Eyfs() {
 
         <div className="col-md-12 flexy mov">
           <div className="col-md-6">
-            <img src={Cute} alt="Header" className="img-fluid" />
-          </div>
-
-          <div className="col-md-6">
             <img src={Exam} alt="Header" className="img-fluid" />
+          </div>
+          <div className="col-md-6">
+            <img src={Cute} alt="Header" className="img-fluid" />
           </div>
         </div>
 
