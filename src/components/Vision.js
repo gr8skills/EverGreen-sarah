@@ -4,7 +4,6 @@ import Item from "./Item";
 import Violin from "../assets/perform.png";
 import Interhouse from "../assets/valedictory.jpg";
 import Church from "../assets/stagesing.jpg";
-import Circle2 from "../assets/Circle.png";
 import { Link } from "react-router-dom";
 
 import "./Vision.css";

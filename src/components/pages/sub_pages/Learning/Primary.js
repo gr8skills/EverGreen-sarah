@@ -20,7 +20,7 @@ function Primary() {
         <div className="comments col-md-12 flexy">
           <div className="intro col-md-9 sen">
             <header>Primary </header>
-            <h4>Evergreen Higher Primary School (Grades 4-6)</h4>
+            <h4>Evergreen Primary School (Grades 1-6)</h4>
             <p>
               Junior school at Evergreen Secondary School is more than a prelude
               to the high school years. Junior school is an intentional effort
@@ -72,7 +72,7 @@ function Primary() {
                 </li>
 
                 <li>
-                  <Link to={"/learn/nursery"}>Secondary</Link>
+                  <Link to={"/learn/secondary_school"}>College</Link>
                 </li>
 
                 <li>

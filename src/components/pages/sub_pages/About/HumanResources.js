@@ -23,7 +23,7 @@ function HumanResources() {
       <section className="container">
         <div className="comments">
           <div className="intro">
-            <small>About </small>
+           
             <header>History of the School</header>
           </div>
           <div className=" create">

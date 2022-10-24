@@ -41,7 +41,7 @@ function SecSchool() {
           <div className="intro col-md-9 sen sec">
             <header>Evergreen College</header>
 
-            <h4>Senior School [grade 10 – grade 12] (15 – 17 years)</h4>
+            <h4>Senior Secondary School (grade 10 – grade 1)2 (15 – 17 years)</h4>
             <p>
               Evergreen College is built upon a futuristic mindset which seeks
               to empower learners with competencies that will enable them take
@@ -158,7 +158,7 @@ function SecSchool() {
         </div>
         <div className="col-md-12  sec flexy" style={{ marginTop: "150px" }}>
           <div className="col-md-6">
-            <h3>Junior Secondary School (JSS)</h3>
+            <h3>Junior Secondary School (grade 7-9)</h3>
             <p>
               The school adopts a uniquely integrated approach in its academic
               content, combining both Nigerian and British curricula (Cambridge

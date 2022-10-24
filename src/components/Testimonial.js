@@ -4,7 +4,6 @@ import Slider from "react-slick";
 // import "slick-carousel/slick/slick-theme.css";
 import Quote from "../assets/Quote.svg";
 import Parade from "../assets/Ellipse1@2x.png";
-import Circle from "../assets/Circle.svg";
 import Hood from "../assets/evergreen.png";
 import Carousel from "react-bootstrap/Carousel";
 // import ReactPlayer from "react-player";

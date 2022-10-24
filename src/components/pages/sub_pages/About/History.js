@@ -24,18 +24,18 @@ function History() {
           <div class="overlay4"></div>
         </div>
       </section>
-      <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
+      {/* <CBreadcrumb style={{ "--cui-breadcrumb-divider": "'>'" }}>
         <CBreadcrumbItem href="/">&nbsp; Home</CBreadcrumbItem>
         <CBreadcrumbItem href="/about/administrators-message">
           About
         </CBreadcrumbItem>
         <CBreadcrumbItem active>about Evergreen</CBreadcrumbItem>
-      </CBreadcrumb>
+      </CBreadcrumb> */}
 
       <section className="container">
         <div className="comments">
           <div className="intro">
-            <small>About </small>
+        
             <header>About Evergreen</header>
           </div>
           <div className=" create">
@@ -49,11 +49,7 @@ function History() {
                     Administrator’s Message
                   </Link>
                 </li>
-                <li>
-                  <Link to={"/about/proprietors-message"}>
-                    Proprietor’s Message
-                  </Link>
-                </li>
+              
                 <li>
                   <Link className="active" to={"/about/history"}>
                     History Of The School
@@ -77,7 +73,7 @@ function History() {
             <h4 className="bio" style={{ marginTop: "60px" }}>
               Our Mission
             </h4>
-            <p style={{ paddingTop: "0", margin: "0", width: "50%" }}>
+            <p style={{ paddingTop: "0", marginTop: "10px"}}>
               Our mission is to equip our learners with essential skills through
               a globally relevant educational experience that promotes a
               lifelong passion for learning, ethical and moral uprightness,
@@ -88,7 +84,7 @@ function History() {
           </div>
         </div>
 
-        <div className="col-md-12 flexy mov2">
+        <div className="col-md-12 flexy mov2 create">
           <div className="col-md-6">
             <img src={Hood} alt="Header" className="img-fluid" />
           </div>
@@ -106,7 +102,7 @@ function History() {
           </div>
         </div>
 
-        <div className="col-md-12 flexy" style={{ marginTop: "50px" }}>
+        <div className="col-md-12 flexy create" style={{ marginTop: "50px" }}>
           <div className="col-md-6">
             <h4>Our Core Values</h4>
             <p>
@@ -126,7 +122,7 @@ function History() {
             <img src={Dance} alt="Header" className="img-fluid" />
           </div>
 
-          <div className="col-md-6 " style={{ marginTop: "90px" }}>
+          <div className="col-md-6 create " style={{ marginTop: "90px" }}>
             <h4>Our Curriculum</h4>
             <p>
               Evergreen College is built upon a futuristic mindset which seeks

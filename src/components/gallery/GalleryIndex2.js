@@ -1,11 +1,11 @@
 import React from "react";
 
 import Photos6 from "../../assets/hood2.png";
-import Craft from "../../assets/tour.png";
-import Exam from "../../assets/zootour.png";
+import Craft from "../../assets/cultural.jpg";
+import Exam from "../../assets/cultural2.jpg";
 import Drama from "../../assets/acting.png";
 import Grass from "../../assets/chess2.png";
-import Smile from "../../assets/hood.png";
+import Smile from "../../assets/cultural3.jpg";
 import Craft2 from "../../assets/party.png";
 
 import Gift from "../../assets/animals.png";

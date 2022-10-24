@@ -1,6 +1,5 @@
 import React from "react";
-import Pex from "../../assets/champ2.png";
-import Circle from "../../assets/Circle.svg";
+import Pex from "../../assets/primarygraduation.jpg";
 
 import Tab from "@material-ui/core/Tab";
 import Tabs from "@material-ui/core/Tabs";
@@ -67,7 +66,7 @@ function Gallery() {
           
           
         </div>
-        <SimpleGallery />
+        {/* <SimpleGallery /> */}
       </section>
     </>
   );

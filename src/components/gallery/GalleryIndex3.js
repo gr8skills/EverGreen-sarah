@@ -1,9 +1,9 @@
 import React from "react";
 
-import Compute from "../../assets/maime.png";
-import Building from "../../assets/act.png";
-import Chicken from "../../assets/gym.png";
-import Craft3 from "../../assets/native.png";
+import Compute from "../../assets/primarygraduation.jpg";
+import Building from "../../assets/youngscholars2.jpg";
+import Chicken from "../../assets/graduations2.jpg";
+import Craft3 from "../../assets/valedictory.jpg";
 import Craft4 from "../../assets/perform.png";
 
 import Practical from "../../assets/sing.png";
