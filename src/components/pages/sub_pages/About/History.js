@@ -50,11 +50,11 @@ function History() {
                   </Link>
                 </li>
               
-                <li>
+                {/* <li>
                   <Link className="active" to={"/about/history"}>
                     History Of The School
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link to={"/about/Conduct"}>Parents Code of Conduct</Link>
                 </li>

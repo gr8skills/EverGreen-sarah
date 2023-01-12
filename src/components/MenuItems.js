@@ -6,11 +6,11 @@ export const navMenus = {
       cName: "dropdown-link",
     },
     
-    {
-      title: "About Evergreen",
-      path: "/about/history",
-      cName: "dropdown-link",
-    },
+    // {
+    //   title: "About Evergreen",
+    //   path: "/about/history",
+    //   cName: "dropdown-link",
+    // },
     {
       title: "Parents Code of Conduct",
       path: "/about/Conduct",
