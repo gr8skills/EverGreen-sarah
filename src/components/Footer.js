@@ -206,9 +206,9 @@ const [isShown3, setIsShown3] = useState(true);
 
                 <div className="col-md-6 ">
                   <ul className="list-unstyled">
-                    <li>
+                    {/* <li>
                       <a href="/about/history">About Us</a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="/about/Conduct">Code of Conduct</a>
                     </li>

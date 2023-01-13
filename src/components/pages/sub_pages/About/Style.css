@@ -218,6 +218,14 @@ font-size: 15px;
 padding-top: 20px;
 }
 
+
+
+.create span{
+  font-family: monserat;
+  font-size: 15px;
+  padding-top: 20px;
+  }
+
 /* @media (min-width: 1200px) {
   .create {
     justify-content: center;
@@ -758,6 +766,11 @@ p{
 
 }
 
+span{
+  font-family:open sans !important;
+
+}
+
 small{
               font-family:open sans !important;
 
@@ -768,6 +781,12 @@ header{
 
 }
 .create p{
+  font-size:19px !important;
+  text-align:justify !important;
+}
+
+
+.create span{
   font-size:19px !important;
   text-align:justify !important;
 }

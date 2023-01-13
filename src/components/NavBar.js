@@ -173,7 +173,7 @@ const openPortalLink = () => {
                     className="nav-links"
                     onClick={closeMobileMenu}
                   >
-                    Administrator's Message
+                    Welcome Address
                   </NavLink>{" "}
                   <NavLink
                     to={"/message"}
@@ -183,11 +183,11 @@ const openPortalLink = () => {
                     Proprietor's Message
                   </NavLink>
                   <NavLink
-                    to={"/history"}
+                    to={"/consult"}
                     className="nav-links"
                     onClick={closeMobileMenu}
                   >
-                    History
+                    Evergreen Consult
                   </NavLink>
                   <NavLink
                     to={"/contact"}

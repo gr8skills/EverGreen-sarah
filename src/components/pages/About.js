@@ -5,7 +5,7 @@ import Resources from    './sub_pages/About/HumanResources'
 
 import NotFound from './NotFound';
 import Contact from './sub_pages/About/Contact';
-import History from './sub_pages/About/History';
+// import History from './sub_pages/About/History';
 import Conduct from "./sub_pages/About/Conduct";
 
 function About() {
@@ -17,7 +17,6 @@ function About() {
             <Redirect to={"/about/administrators-message"} />
           </Route>
           <Route path="/about/administrators-message" component={Desk} exact />
-          <Route path="/about/history" component={History} exact />
           <Route
             path="/about/proprietors-message"
             component={Resources}

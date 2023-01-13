@@ -59,7 +59,7 @@ function App() {
                   <Route path={"/conduct"} component={Conduct} />
 
                   <Route path={"/gallery"} component={Gallery} />
-                  <Route path={"/history"} component={History} />
+                  <Route path={"/consult"} component={History} />
                   <Route path={"/message"} component={HumanResources} />
                   <Route path={"/principal"} component={PrincipalsDesk} />
                   <Route path={"/apply"} component={Apply} />
