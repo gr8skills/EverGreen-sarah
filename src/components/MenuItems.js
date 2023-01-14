@@ -8,7 +8,7 @@ export const navMenus = {
     
     {
       title: "Evergreen Consult",
-      path: "/about/history",
+      path: "/about/consult",
       cName: "dropdown-link",
     },
     {

@@ -5,7 +5,7 @@ import Resources from    './sub_pages/About/HumanResources'
 
 import NotFound from './NotFound';
 import Contact from './sub_pages/About/Contact';
-// import History from './sub_pages/About/History';
+import History from './sub_pages/About/History';
 import Conduct from "./sub_pages/About/Conduct";
 
 function About() {
@@ -24,6 +24,7 @@ function About() {
           />
           <Route path="/about/contact-us" component={Contact} exact />
           <Route path="/about/Conduct" component={Conduct} exact />
+          <Route path="/about/consult" component={History} exact />
 
           <Route path="*" component={NotFound} />
         </Switch>

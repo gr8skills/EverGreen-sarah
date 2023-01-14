@@ -36,17 +36,22 @@ function Contact() {
           <div className="create">
             <div className="sub-cover">
               <ul className="sub-menu">
-                <li>
+                {/* <li>
                   <Link to={"/"}>Home</Link>
-                </li>
+                </li> */}
                 <li>
                   <Link to={"/about/administrators-message"}>
-                    Administrator’s Message
+                    Welcome Address
                   </Link>
                 </li>
                 <li>
                   <Link to={"/about/proprietors-message"}>
                     Proprietor’s Message
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/about/consult"}>
+                    Evergreen Consult
                   </Link>
                 </li>
              

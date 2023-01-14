@@ -39,6 +39,11 @@ function PrincipalsDesk() {
                     </Link>
                   </li>
                   <li>
+                    <Link to={"/about/consult"}>
+                      Evergreen Consult
+                    </Link>
+                  </li>
+                  <li>
                     <Link to={"/about/conduct"}>Parents Code-of-Conduct</Link>
                   </li>
                   <li>

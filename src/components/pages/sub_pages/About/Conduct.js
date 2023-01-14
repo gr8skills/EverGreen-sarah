@@ -32,7 +32,7 @@ function Apply() {
                
                 <li>
                   <Link to={"/about/administrators-message"}>
-                    Administrator’s Message
+                    Welcome Address
                   </Link>
                 </li>
                 <li>
@@ -40,6 +40,12 @@ function Apply() {
                     Proprietor’s Message
                   </Link>
                 </li>
+
+                <li>
+                    <Link to={"/about/consult"}>
+                      Evergreen Consult
+                    </Link>
+                  </li>
                 
                 <li>
                   <Link className="active" to={"/about/Conduct"}>

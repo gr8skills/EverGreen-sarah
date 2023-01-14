@@ -42,11 +42,11 @@ function HumanResources() {
                     Proprietor’s message
                   </Link>
                 </li>
-                {/* <li>
-                  <Link className="active" to={"/about/history"}>
-                    History Of The School
-                  </Link>
-                </li> */}
+                <li>
+                    <Link to={"/about/consult"}>
+                      Evergreen Consult
+                    </Link>
+                  </li>
                 <li>
                   <Link to={"Conduct"}>Parents' code-of-conduct</Link>
                 </li>

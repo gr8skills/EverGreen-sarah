@@ -51,7 +51,7 @@ function History() {
                 </li>
               
                 <li>
-                  <Link className="active" to={"/about/history"}>
+                  <Link className="active" to={"/about/consult"}>
                    Evergreen Consult
                   </Link>
                 </li>
