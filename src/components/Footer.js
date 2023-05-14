@@ -149,6 +149,8 @@ const [isShown3, setIsShown3] = useState(true);
           </div>
 
           <div className="col-md-6 secondc">
+            <h4 style={{ marginBottom: "50px", textAlign: "center" }}>Contact Us</h4>
+
             <div className="col-md-12 flexy">
               <div className="col-md-4">
                 <h5>Evergreen College:</h5> <br />
@@ -224,9 +226,7 @@ const [isShown3, setIsShown3] = useState(true);
                       </a>
                     </li> */}
                     <li className="list-inline-item">
-                      <a href="/learn/primary_school" >
-                        Primary School
-                      </a>
+                      <a href="/learn/primary_school">Primary School</a>
                     </li>
                   </ul>
                 </div>

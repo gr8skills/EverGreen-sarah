@@ -162,7 +162,7 @@ const openPortalLink = () => {
           </li>
 
           <div className="wrapper">
-            <ui className="mainMenu">
+            <ul className="mainMenu">
               <li className="item" id="account">
                 <a href="#account" className="btn">
                   About
@@ -297,7 +297,7 @@ const openPortalLink = () => {
                   PORTAL
                 </a>
               </li>
-            </ui>
+            </ul>
           </div>
         </ul>
       </div>
